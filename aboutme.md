@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About me
-subtitle: Welcome my curious reader.
+title: Contact
+subtitle: Europe, Poland, Warsaw area
 ---
 
-My name is KK. 
+The company aim is to support worldwide customers in R&D Photonics projects.
 
-I like R..
+## The story
 
-What else do you need?
 
-## my story
-
-To be honest, this is just quick typing exercise, and I need to be going...
