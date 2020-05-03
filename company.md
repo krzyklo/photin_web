@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Contact
-subtitle: Europe, Poland, Warsaw area
+title: PhotIN: Photonics INnovation
+subtitle: The company aim is to support worldwide customers in R&D Photonics projects.
 ---
 
-The company aim is to support worldwide customers in R&D Photonics projects.
 
 ## The story
 
