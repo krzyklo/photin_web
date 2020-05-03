@@ -7,8 +7,10 @@ subtitle: Europe, Poland, Warsaw area
 # info@photin.eu
 
 
-ul. Hoża 86/410
-00-682 Warsaw
-Poland
+ul. Hoża 86/410   
+
+00-682 Warsaw  
+
+Poland  
 
 
