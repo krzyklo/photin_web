@@ -4,6 +4,8 @@ title: Contact
 subtitle: Europe, Poland, Warsaw area
 ---
 
+# Photonics INnovation Sp. Z O.O.
+
 # info@photin.eu
 
 
