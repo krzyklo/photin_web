@@ -8,11 +8,11 @@ subtitle: Europe, Poland, Warsaw area
 
 # info@photin.eu
 
-REGON: 385987539
-VAT EU: 7010 980 653
-Lutosławskiego 15,
-05-080 Klaudyn
-
+REGON: 385987539  
+VAT EU: PL 7010 980 653  
+Lutosławskiego 15,  
+05-080 Klaudyn  
+  
 Poland  
 
 
