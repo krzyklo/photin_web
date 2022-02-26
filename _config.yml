@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Photonics INnovation
+title: Photin
 
 # Short description of your site
-description: Photonics as Key Enabling Technology in XXI Century
+description: Photonics and Expitaxy Services
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -21,10 +21,23 @@ description: Photonics as Key Enabling Technology in XXI Century
 # List of links in the navigation bar
 navbar-links:
   Company: "company"
-  Projects:
-    - InGaAsP material parameters: "https://github.com/krzyklo/ingaasp2rcpp/"
-    - InGaAsP Shiny calculator: "https://krzyklo.shinyapps.io/ingaasp/"
-  Services:   "services"
+  Reactors:   
+    - Aix-200RF : "reactors-Aix200RF"
+    - Aix-200/4 : "reactors-Aix200R2"
+    - Aix-2400 G1  : "reactors-G1"
+  Products: 
+    - GaSb-based: "products-GaSb"
+    - InP-based:  "products-InP"
+    - GaAs-based: "products-GaAs"
+  Knowledge:
+    - InGaAsP/InP material parameters: "https://github.com/krzyklo/ingaasp2rcpp/"
+    - InGaAsP/InP calculator: "https://krzyklo.shinyapps.io/ingaasp/"
+    - InGaAsSb/GaSb: "GIAS"
+    - VCSELs : "vcsels"
+    - InP DFB regrowth/infill: "regrowths"
+    - SLD/SLED/ELED: "sleds"
+    - Apsys : "know-apsys"
+  
   Contact: "contact"
 
 # Image to show in the navigation bar - image must be a square (width = height)
