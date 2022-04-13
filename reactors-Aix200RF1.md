@@ -1,13 +1,13 @@
 
 ---
-layout: post
-title: "Aix-2400 G1"
-subtitle: "Aixtron G1 Planetary Reactor"
+layout: page
+title: 'Aix-200RF + RAS'
+subtitle: 'Aixtron Aix-200 Reactor with in situ Reflectance Anisotropy Spectroscopy'
 ---
 
 # Configuration
 
-# InP / GaAs
+# InGaAsSb / AlGaAsSb
 
 <table>
 <tr>

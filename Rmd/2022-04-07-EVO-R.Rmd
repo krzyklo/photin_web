@@ -1,0 +1,72 @@
+
+---
+title: Photin LLC complete the EIT Manufacturing EVO-R project
+author: "Krzysztof Kłos"
+date: "07/04/2022"
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md",inputFile)), 
+  output_dir = "~/photin/krzyklo.github.io/_posts") })
+  
+layout: post
+cover-img: /img/E0_with_bubblers.jpeg
+thumbnail-img: /img/Aix200RF_heat_up_test.jpeg
+tags: [news, projects]
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+library(stringr)
+library(ggplot2)
+library(rmarkdown)
+library(knitr)
+
+```
+
+
+
+```{r fig-options, include=FALSE}
+base_dir <- "~/photin/krzyklo.github.io/" # i.e. where the jekyll blog is on the hard drive.
+base_url <- "/" # keep as is
+
+# If the document is currently being knit, do this; skip it in normal execution
+if (!is.null(knitr::current_input())){
+  
+  # Output path for figures
+  fig_path <- paste0("_site/img/", str_remove(knitr::current_input(), ".Rmd"), "/")
+  
+  # Set base directories
+  knitr::opts_knit$set(base.dir = base_dir, base.url = base_url)
+  
+  # Set figure directories
+  knitr::opts_chunk$set(fig.path = fig_path,
+                      cache.path = '../cache/',
+                      message=FALSE, warning=FALSE,
+                      cache = FALSE)
+}
+
+```
+
+
+```{r fig1, include=TRUE, echo=F, warning=F, message=F}
+# All defaults
+include_graphics("../img/Aix200RF_heat_up_test.jpeg")
+```
+
+Photin LLC complete [EIT Manufacturing EVO-R](https://eit.europa.eu/our-activities/opportunities/eit-manufacturing-open-ris-call-evo-r) project dedicated to purchase, transfer, and set-up of Aixtron Aix-200RF MOCVD reactor from Ulm University to Photin facility.
+
+This is 3rd reactor purchase for Photin. Acquisition of such well maintained, fully documented, and operational reactor resulted in synergy effects and rapid acceleration of works on Aixtron Aix-200/4 and Aixtron Aix 2400 G1 reactors standing in Photin facility.
+All Photin reactors are based on VME technology known for ruggedness and reliability.
+
+The Aix-200RF reactor was operational 1 week after transfer, and extensively tested on provisional water cooling and nitrogen supply. 
+Facility works are in progress with outlook to grow first wafers in Q2 of 2022.  
+
+**Inquiries for growth of 2” wafers on GaSb, GaAs, and InP could be sent to kk@photin.eu.**
+
+*Would like to acknowledge and express gratitude to prof. Ferdinand Scholz and his PhD students, who for decades worked on upgrades and maintenance of this reactor.*
+

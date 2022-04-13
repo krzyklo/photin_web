@@ -4,7 +4,7 @@
 title: Photin
 
 # Short description of your site
-description: Photonics and Expitaxy Services
+description: MOCVD Services 
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -22,10 +22,11 @@ description: Photonics and Expitaxy Services
 navbar-links:
   Company: "company"
   Reactors:   
-    - Aix-200RF : "reactors-Aix200RF"
-    - Aix-200/4 : "reactors-Aix200R2"
-    - Aix-2400 G1  : "reactors-G1"
-  Products: 
+    - 1. 2" : "reactors-Aix200RF1"
+    - 2. 2" : "reactors-Aix200RF2"
+    - 3. 2"/ 3" : "reactors-Aix200R2"
+    - 4. 2"/3"  : "reactors-G1"
+  Services: 
     - GaSb-based: "products-GaSb"
     - InP-based:  "products-InP"
     - GaAs-based: "products-GaAs"
@@ -86,7 +87,7 @@ social-network-links:
   email: "info@photin.eu"
 #  facebook: deanattali
 #  github: daattali
-#  twitter: daattali
+   twitter: Photin_MOCVD
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -108,7 +109,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "PhotIN.eu"
+url-pretty: "photin.eu"
 
 # --- Web Statistics Section --- #
 
