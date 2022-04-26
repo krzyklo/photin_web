@@ -10,12 +10,15 @@ output:
 
 ### Photin sp. Z O.O.
 
-Lutosławskiego 15,  
+Lutoslawskiego 15,  
 05-080 Klaudyn,  
-Poland
+Poland  
 
 Registered under KRS: 0000839672  
+
 REGON: 385987539  
-VAT EU:PL 7010 980 653
+
+VAT EU:PL 7010 980 653  
+
 
 <info@photin.eu>
