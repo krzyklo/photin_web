@@ -5,10 +5,8 @@ output:
   md_document:
     variant: gfm
     preserve_yaml: TRUE
-#subtitle: Europe, Poland, Warsaw area
+subtitle: Photin sp. Z O.O.
 ---
-
-### Photin sp. Z O.O.
 
 Lutoslawskiego 15,  
 05-080 Klaudyn,  
