@@ -1,15 +1,21 @@
 ---
 layout: page
 title: Contact
-subtitle: Europe, Poland, Warsaw area
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+#subtitle: Europe, Poland, Warsaw area
 ---
 
-# Photonics INnovation Sp. Z O.O.
+### Photin sp. Z O.O.
 
-# info@photin.eu
+Lutosławskiego 15,  
+05-080 Klaudyn,  
+Poland
 
-05-080 Klaudyn
+Registered under KRS: 0000839672  
+REGON: 385987539  
+VAT EU:PL 7010 980 653
 
-Poland  
-
-
+<info@photin.eu>

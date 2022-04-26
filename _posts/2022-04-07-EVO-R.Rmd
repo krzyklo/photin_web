@@ -1,6 +1,6 @@
 
 ---
-title: Photin LLC complete the EIT Manufacturing EVO-R project
+title: Photin complete the EIT Manufacturing EVO-R project
 author: "Krzysztof Kłos"
 date: "07/04/2022"
 output:
@@ -11,14 +11,18 @@ knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, 
   encoding = encoding, 
   output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md",inputFile)), 
-  output_dir = "~/photin/krzyklo.github.io/_posts") })
+  output_dir = "~/photin/beautiful-jekyll/_posts/") })
   
 layout: post
 
-thumbnail-img: ../img/Aix200RF_heat_up_test.jpeg
+cover-img: /assets/img/Aix200RF_heat_up_test.jpeg
+thumbnail-img: /assets/img/E0_with_bubblers.jpeg
+share-img: /assets/img/path.jpg
 tags: [news, projects]
 always_allow_html: true
 ---
+
+Photin complete [EIT Manufacturing EVO-R](https://eit.europa.eu/our-activities/opportunities/eit-manufacturing-open-ris-call-evo-r) project dedicated to purchase, transfer, and set-up of Aixtron Aix-200RF MOCVD reactor from Ulm University to Photin facility.
 
 ```{r setup, include=FALSE}
 library(stringr)
@@ -33,14 +37,14 @@ library(knitr)
 
 
 ```{r fig-options, include=FALSE}
-base_dir <- "~/photin/krzyklo.github.io/" # i.e. where the jekyll blog is on the hard drive.
+base_dir <- "~/photin/beautiful-jekyll/" # i.e. where the jekyll blog is on the hard drive.
 base_url <- "/" # keep as is
 
 # If the document is currently being knit, do this; skip it in normal execution
 if (!is.null(knitr::current_input())){
   
   # Output path for figures
-  fig_path <- paste0("_site/img/", str_remove(knitr::current_input(), ".Rmd"), "/")
+  fig_path <- paste0("_site/assets/img/", str_remove(knitr::current_input(), ".Rmd"), "/")
   
   # Set base directories
   knitr::opts_knit$set(base.dir = base_dir, base.url = base_url)
@@ -57,10 +61,9 @@ if (!is.null(knitr::current_input())){
 
 ```{r fig1, include=TRUE, echo=F, warning=F, message=F}
 # All defaults
-include_graphics("../img/E0_with_bubblers.jpeg")
+include_graphics("../assets/img/E0_with_bubblers.jpeg")
 ```
 
-Photin LLC complete [EIT Manufacturing EVO-R](https://eit.europa.eu/our-activities/opportunities/eit-manufacturing-open-ris-call-evo-r) project dedicated to purchase, transfer, and set-up of Aixtron Aix-200RF MOCVD reactor from Ulm University to Photin facility.
 
 This is 3rd reactor purchase for Photin. Acquisition of such well maintained, fully documented, and operational reactor resulted in synergy effects and rapid acceleration of works on Aixtron Aix-200/4 and Aixtron Aix 2400 G1 reactors standing in Photin facility.
 All Photin reactors are based on VME technology known for ruggedness and reliability.
