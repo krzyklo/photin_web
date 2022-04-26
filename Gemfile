@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-gemspec
-
+#gemspec
+gem 'github-pages'
