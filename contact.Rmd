@@ -6,6 +6,7 @@ output:
     variant: gfm
     preserve_yaml: TRUE
 subtitle: Photin sp. Z O.O.
+cover-img: ["assets/img/Aix200_loading.jpg", "assets/img/Aix200RF_heat_up_test.jpeg"]
 ---
 ```{r setup, include=FALSE}
 library(stringr)
@@ -20,7 +21,7 @@ library(knitr)
 
 
 ```{r fig-options, include=FALSE}
-base_dir <- "~/photin/beautiful-jekyll/" # i.e. where the jekyll blog is on the hard drive.
+base_dir <- "~/photin/krzyklo.github.io/" # i.e. where the jekyll blog is on the hard drive.
 base_url <- "/" # keep as is
 
 # If the document is currently being knit, do this; skip it in normal execution
@@ -53,4 +54,4 @@ REGON: 385987539
 VAT EU / GST: PL 7010 980 653  
 
 
-info@photin.eu  
+info {sign} photin.eu  

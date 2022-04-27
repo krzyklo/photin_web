@@ -15,16 +15,16 @@ author: Krzysztof Kłos
 
 navbar-links:
   Company: "company"
-  Reactors:   
-    - Aix200+RAS 2" : "reactors-Aix200RF-RAS"
-    - Aix200RF   2" : "reactors-Aix200RF"
-      #    - 3. 2"/ 3" : "reactors-Aix200R2"
-      #    - 4. 2"/3"  : "reactors-G1"
+  MOCVD Reactors:   
+    - 1. Aix200+RAS 1x2" : "reactors-Aix200RF-RAS"
+    - 2. Aix200RF   1x2" : "reactors-Aix200RF"
+    - 3. Aix200/4 3x2" / 3" : "reactors-Aix200R2"
+    - 4. Planetary 15x2" / 8x3"  : "reactors-G1"
   Services: 
     - GaSb-based: "products-GaSb"
     - InP-based:  "products-InP"
-    - GaAs-based: "products-GaAs"
-    - Design of detectors: "detectors"
+      #    - GaAs-based: "products-GaAs"
+      #    - Design of detectors: "detectors"
   Knowledge:
     - InGaAsP/InP material parameters: "https://github.com/krzyklo/ingaasp2rcpp/"
     - InGaAsP/InP calculator: "https://krzyklo.shinyapps.io/ingaasp/"

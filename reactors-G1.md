@@ -1,39 +1,45 @@
-
 ---
-layout: post
-title: "Aix-2400 G1"
-subtitle: "Aixtron G1 Planetary Reactor"
+title: Aixtron Planetary 
+author: "Krzysztof Kłos"
+#date: "07/04/2022"
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md",inputFile)), 
+  output_dir = "~/photin/krzyklo.github.io") })
+  
+layout: page
+
+cover-img: ["assets/img/G1/G1_cntrl.JPG", "assets/img/G1/G1_GB_cntrl.JPG","assets/img/G1/G1_side.JPG"]
+thumbnail-img: /assets/img/G1/G1_GB_cntrl.JPG
+share-img: /assets/img/path.jpg
+tags: [MOCVD, Aixtron, reactor]
+always_allow_html: true
 ---
 
-# Configuration
+MOCVD Planetary Reactor 15" x 2" and 8" x 3"
 
-# InP / GaAs
+Configuration:
 
-<table>
-<tr>
-<th> Good </th>
-<th> Bad </th>
-</tr>
-<tr>
-<td>
+|     | 1   | 2   | 3   | 4     | 5   | 6     | 7   | 8   |
+|-----|:----|:----|:----|:------|:----|:------|:----|:----|
+| Hyd | As1 | As2 | Ph1 | Si2H6 | HCl | Spare |     |     |
+| MO  | Ga1 | Ga2 | In1 | In2   | Al1 | Al2   | Mg  | Zn  |
 
-```c++
-int foo() {
-    int result = 4;
-    return result;
-}
-```
+Temperature range: Up to 850°C  
+Recently used for AlInGaP LEDs  
+Gases used: Arsine, Phosphine, DiSi2H6, HCL  
+Windows based operating system: Upgraded from OS9
 
-</td>
-<td>
+<img src="/assets/img/G1/G1_cntrl.JPG" width="1704" />
 
-```c++
-int foo() { 
-    int x = 4;
-    return x;
-}
-```
+**Inquiries for growth of 2” wafers on GaSb, GaAs, and InP could be sent
+to kk{sign}photin.eu.**
 
-</td>
-</tr>
-</table>
+*Would like to acknowledge and express gratitude to prof. Ferdinand
+Scholz and his PhD students, who for decades worked on upgrades and
+maintenance of this reactor.*

@@ -71,7 +71,7 @@ All Photin reactors are based on VME technology known for ruggedness and reliabi
 The Aix-200RF reactor was operational 1 week after transfer, and extensively tested on provisional water cooling and nitrogen supply. 
 Facility works are in progress with outlook to grow first wafers in Q2 of 2022.  
 
-**Inquiries for growth of 2” wafers on GaSb, GaAs, and InP could be sent to kk@photin.eu.**
+**Inquiries for growth of 2” wafers on GaSb, GaAs, and InP could be sent to kk{sign}photin.eu.**
 
 *Would like to acknowledge and express gratitude to prof. Ferdinand Scholz and his PhD students, who for decades worked on upgrades and maintenance of this reactor.*
 

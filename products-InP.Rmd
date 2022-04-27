@@ -1,0 +1,78 @@
+---
+title: InP Products 
+author: "Krzysztof Kłos"
+#date: "07/04/2022"
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md",inputFile)), 
+  output_dir = "~/photin/krzyklo.github.io") })
+  
+layout: page
+
+cover-img: ["assets/img/G1/G1_cntrl.JPG", "assets/img/G1/G1_GB_cntrl.JPG","assets/img/G1/G1_side.JPG"]
+thumbnail-img: /assets/img/G1/G1_GB_cntrl.JPG
+share-img: /assets/img/path.jpg
+tags: [MOCVD, Aixtron, reactor]
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+library(stringr)
+library(ggplot2)
+library(rmarkdown)
+library(knitr)
+library(kableExtra)
+
+#cover-img: ../img/E0_with_bubblers.jpeg
+
+```
+
+# InP based products:
+
+```{r epis, echo=FALSE}
+materials=c("InGaAsP/InP", "InAlGaAs/InP", "InGaAs/InP", "InAlAs/InGaAs/InP")
+description=c("strained or matched MQW edge SOA, SLED and lasers","strained or matched MQW edge SOA, SLED and lasers", "passive devices and photodetectors", "QCL, Avalanche detectors" )
+
+knitr::kable(rbind(materials, description),format = "simple")
+
+```            	
+  
+Manufactured to specification.
+	
+
+```{r fig-options, include=FALSE}
+base_dir <- "~/photin/krzyklo.github.io/" # i.e. where the jekyll blog is on the hard drive.
+base_url <- "/" # keep as is
+
+# If the document is currently being knit, do this; skip it in normal execution
+if (!is.null(knitr::current_input())){
+  
+  # Output path for figures
+  fig_path <- paste0("_site/assets/img/", str_remove(knitr::current_input(), ".Rmd"), "/")
+  
+  # Set base directories
+  knitr::opts_knit$set(base.dir = base_dir, base.url = base_url)
+  
+  # Set figure directories
+  knitr::opts_chunk$set(fig.path = fig_path,
+                      cache.path = '../cache/',
+                      message=FALSE, warning=FALSE,
+                      cache = FALSE)
+}
+
+```
+
+
+```{r fig1, include=F, echo=F, warning=F, message=F}
+# All defaults
+include_graphics("assets/img/G1/G1_cntrl.JPG")
+```
+
+
+**Inquiries for growth of 2” wafers on GaSb, GaAs, and InP could be sent to kk{sign}photin.eu.**
+
