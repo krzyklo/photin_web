@@ -11,7 +11,7 @@ knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, 
   encoding = encoding, 
   output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md",inputFile)), 
-  output_dir = "~/photin/beautiful-jekyll/_posts/") })
+  output_dir = "~/photin/krzyklo.github.io/_posts/") })
   
 layout: post
 
@@ -37,7 +37,7 @@ library(knitr)
 
 
 ```{r fig-options, include=FALSE}
-base_dir <- "~/photin/beautiful-jekyll/" # i.e. where the jekyll blog is on the hard drive.
+base_dir <- "~/photin/krzyklo.gihub.io/" # i.e. where the jekyll blog is on the hard drive.
 base_url <- "/" # keep as is
 
 # If the document is currently being knit, do this; skip it in normal execution
