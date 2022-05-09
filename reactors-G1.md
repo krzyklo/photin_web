@@ -21,7 +21,10 @@ tags: [MOCVD, Aixtron, reactor]
 always_allow_html: true
 ---
 
-MOCVD Planetary Reactor 15" x 2" and 8" x 3"
+MOCVD Planetary Reactor G1 15" x 2" and 8" x 3"
+
+This reactor was built for US company “Bandgap”, and then used by SST,
+who was put it on CAE for sale.
 
 Configuration:
 
@@ -40,6 +43,4 @@ Windows based operating system: Upgraded from OS9
 **Inquiries for growth of 2” wafers on GaSb, GaAs, and InP could be sent
 to kk{sign}photin.eu.**
 
-*Would like to acknowledge and express gratitude to prof. Ferdinand
-Scholz and his PhD students, who for decades worked on upgrades and
-maintenance of this reactor.*
+*!!Thank you dr Chen for all!!*
