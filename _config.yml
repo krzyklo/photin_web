@@ -14,6 +14,7 @@ author: Krzysztof Kłos
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  News: "index"
   Company: "company"
   MOCVD Reactors:   
     - 1. Aix200+RAS 1x2" : "reactors-Aix200RF-RAS"
@@ -54,7 +55,7 @@ title-img: /assets/img/logo6_with_text_Photin.png
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "info{}photin.eu"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 # facebook: deanattali
 # github: daattali
@@ -63,7 +64,7 @@ social-network-links:
 # youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: krzysztof-klos-photin
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78

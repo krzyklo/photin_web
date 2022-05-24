@@ -43,4 +43,5 @@ Windows based operating system: Upgraded from OS9
 **Inquiries for growth of 2” wafers on GaSb, GaAs, and InP could be sent
 to kk{sign}photin.eu.**
 
-*!!Thank you dr Chen for all!!*
+*!!We send Thanks to dr Chen who was the last Epi expert who worked on
+this machine!!*
