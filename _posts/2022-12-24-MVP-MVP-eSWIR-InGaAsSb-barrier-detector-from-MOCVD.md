@@ -19,7 +19,7 @@ cover-img: ["/assets/img/221224_MVP/First_Detectors_Measured1.png",
 "/assets/img/221224_MVP/Valley-of-death-Source-Osawa-Miyazaki-2006_crop.png",
 "/assets/img/221224_MVP/samples.jpg"]
 thumbnail-img: /assets/img/221224_MVP/First_Detectors_Measured1.png
-share-img: /assets/img/221224_MVP/samples.jpg
+share-img: /assets/img/221224_MVP/shared-img.png
 tags: [news,mvp, projects]
 always_allow_html: true
 ---
