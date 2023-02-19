@@ -61,10 +61,10 @@ if (!is.null(knitr::current_input())){
 
 ### Intro
 One of the best paths for survival of deep-techs, is non-dilutive financing via EU and national grants.  
-Photin is exploring this path for ~1 year.  Recently, we had deepened our cooperation with Military University of Technology and KIND Lab, which manifested in application for [InnoGlobo 2](https://www.gov.pl/web/ncbr/ii-konkurs-w-ramach-programu-innoglobo) in 2022.  
+Photin is exploring this path for ~1 year.  Recently, we had deepened our cooperation with [Military University of Technology](https://www.wtc.wat.edu.pl/) and [K.I.N.D. Lab](https://ece.osu.edu/krishna-infrared-detector-k.i.n.d.-laboratory), which manifested in application for [InnoGlobo 2](https://www.gov.pl/web/ncbr/ii-konkurs-w-ramach-programu-innoglobo) in 2022.  
 The project is focused on low temperature IR detector passivation using MOCVD technology.  
 
-### Passivation challanges
+### Passivation challenges
 
 Despite perfect passivation results shown usually in publication, the true processing results are not so ideal, and there are process variations.  
 Even for apparently mature InP/InGaAs detectors technology, passivation of small pixels is challenging (https://doi.org/10.1109/JSEN.2020.2987006).
@@ -96,7 +96,7 @@ include_graphics("../assets/img/230107_InnoGlobo2/lista.png")
 
 We proudly announce, that our "PfBaAIRD" project passed formal criteria and is one of 16 projects selected for next stage review.  
 
-Assuming all applicants aimed for maximum ~1.5M, then ~7 of 16 consortiums will receive grant `r round(10/1.5/16*100,0)`%, which is one of the highest chances one could have in grant applications.  
+Assuming all applicants aimed for maximum ~1.5M, then ~7 of 16 consortiums will receive grant. `r round(10/1.5/16*100,0)`% is one of the highest chances one could have in grant applications.  
 We keep our thumbs!  
 
 ```{r fig1, include=TRUE, echo=F, warning=F, message=F}

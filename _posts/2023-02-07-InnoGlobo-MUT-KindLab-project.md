@@ -27,14 +27,16 @@ always_allow_html: true
 One of the best paths for survival of deep-techs, is non-dilutive
 financing via EU and national grants.  
 Photin is exploring this path for \~1 year. Recently, we had deepened
-our cooperation with Military University of Technology and KIND Lab,
+our cooperation with [Military University of
+Technology](https://www.wtc.wat.edu.pl/) and [K.I.N.D.
+Lab](https://ece.osu.edu/krishna-infrared-detector-k.i.n.d.-laboratory),
 which manifested in application for [InnoGlobo
 2](https://www.gov.pl/web/ncbr/ii-konkurs-w-ramach-programu-innoglobo)
 in 2022.  
 The project is focused on low temperature IR detector passivation using
 MOCVD technology.
 
-### Passivation challanges
+### Passivation challenges
 
 Despite perfect passivation results shown usually in publication, the
 true processing results are not so ideal, and there are process
@@ -57,8 +59,8 @@ We proudly announce, that our “PfBaAIRD” project passed formal criteria
 and is one of 16 projects selected for next stage review.
 
 Assuming all applicants aimed for maximum \~1.5M, then \~7 of 16
-consortiums will receive grant 42%, which is one of the highest chances
-one could have in grant applications.  
+consortiums will receive grant. 42% is one of the highest chances one
+could have in grant applications.  
 We keep our thumbs!
 
 ![](/../assets/img/230107_InnoGlobo2/1460x616.jpeg)<!-- -->
