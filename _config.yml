@@ -22,6 +22,12 @@ navbar-links:
     - 3. Aix200/4 3x2" / 3" : "reactors-Aix200R2"
     - 4. Planetary 15x2" / 8x3"  : "reactors-G1"
   Services: 
+    - Technical Gases: "Technical-Gases"
+    - Purifier Regen:  "Purifier-Regen"
+    - CVD/MOCVD Upgrades: "CVD-Upgrades"
+    - Deinstallations: "Deinstallations"
+    - Decontamination: "Decontamination"
+    - 
     - GaSb-based: "products-GaSb"
     - InP-based:  "products-InP"
       #    - GaAs-based: "products-GaAs"
@@ -272,7 +278,17 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-scholar
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+scholar:
+  style: apa
+  source: /assets/img/230417_Quasi-Planar-Photodiodes/
+  bibliography: Bibliography.bib
 
