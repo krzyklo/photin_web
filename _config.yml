@@ -194,7 +194,7 @@ google_analytics: "G-5P8F7T1ZYB"
 #utterances:
 
 #https://talk.jekyllrb.com/t/error-your-site-could-not-be-built-no-repo-name-found/5688/2 
-repository: "krzyklo/ photin_web" # GitHub username/repository eg. "daattali/beautiful-jekyll"
+repository: "krzyklo/photin_web" # GitHub username/repository eg. "daattali/beautiful-jekyll"
 
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
