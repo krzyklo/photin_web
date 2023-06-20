@@ -274,8 +274,9 @@ exclude:
   - screenshot.png
   - docs/
   - "*.Rmd"
+  - /vendor #https://hjerpbakk.com/blog/2020/05/25/your-site-could-not-be-built
+  - /tmp
 
-exclued: [vendor]
 
 plugins:
   - jekyll-paginate
