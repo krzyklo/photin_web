@@ -274,6 +274,7 @@ exclude:
   - screenshot.png
   - docs/
   - "*.Rmd"
+  - [vendor]
 
 plugins:
   - jekyll-paginate
