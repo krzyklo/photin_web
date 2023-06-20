@@ -192,7 +192,10 @@ google_analytics: "G-5P8F7T1ZYB"
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
 #utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+
+#https://talk.jekyllrb.com/t/error-your-site-could-not-be-built-no-repo-name-found/5688/2 
+repository: "krzyklo/ photin_web" # GitHub username/repository eg. "daattali/beautiful-jekyll"
+
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
