@@ -7,3 +7,5 @@ _site
 .DS_Store
 Thumbs.db
 ehthumbs.db
+# https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/
+Gemfile.lock
