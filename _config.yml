@@ -24,12 +24,12 @@ navbar-links:
     - 3. Aix200/4 3x2" / 3" : "reactors-Aix200R2"
     - 4. Planetary 15x2" / 8x3"  : "reactors-G1"
   Services: 
-    - Technical Gases: "Technical-Gases"
-    - Purifier Regen:  "Purifier-Regen"
-    - CVD/MOCVD Upgrades: "CVD-Upgrades"
-    - Deinstallations: "Deinstallations"
-    - Decontamination: "Decontamination"
-    - 
+#    - Technical Gases: "Technical-Gases"
+#    - Purifier Regen:  "Purifier-Regen"
+#    - CVD/MOCVD Upgrades: "CVD-Upgrades"
+#    - Deinstallations: "Deinstallations"
+#    - Decontamination: "Decontamination"
+#    - 
     - GaSb-based: "products-GaSb"
     - InP-based:  "products-InP"
       #    - GaAs-based: "products-GaAs"
