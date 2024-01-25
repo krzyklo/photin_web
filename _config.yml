@@ -301,3 +301,12 @@ scholar:
   source: /assets/img/230417_Quasi-Planar-Photodiodes/
   bibliography: Bibliography.bib
 
+collections:
+  posts:
+    output: true
+    permalink: /posts/;path/
+    
+  
+  
+  
+
