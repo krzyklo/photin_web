@@ -304,8 +304,8 @@ scholar:
   bibliography: Bibliography.bib
 
 collections:
-  - products
-  - posts:
+  products
+  posts:
     output: true
     permalink: /posts/:path/
       
