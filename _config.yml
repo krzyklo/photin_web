@@ -304,10 +304,11 @@ scholar:
   bibliography: Bibliography.bib
 
 collections:
-  posts:
+  - products
+  - posts:
     output: true
     permalink: /posts/:path/
-    
+      
   
   
   
