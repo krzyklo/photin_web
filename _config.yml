@@ -304,7 +304,7 @@ scholar:
 collections:
   posts:
     output: true
-    permalink: /posts/;path/
+    permalink: /posts/:path/
     
   
   
