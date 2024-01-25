@@ -5,7 +5,9 @@
 
 # --- Required options --- #
 
-url: / #https://krzyklo.github.io/photin_web/
+url: https://krzyklo.github.io/photin_web/
+baseurl: ""
+
 
 # Name of website
 title: MOCVD Services
