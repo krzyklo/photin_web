@@ -41,6 +41,18 @@ description=c("PIN, barrier detectors and TPV cells")
 knitr::kable(rbind(materials, description),format = "simple")
 
 ```            	
+
+## GaSb templates on GaAs substrate
+
+The GaSb substrate provide access to a range of well-developed, direct-bandgap materials lattice
+matched to GaSb. This bandgap range begins at 0.3 eV with InAsSb and extends up to 1.3 eV with AlGaAsSb.  
+Sometimes due to cost or transparency, GaAs substrate is preferred. In such case it is possible to grow GaSb template on GaAs substrate using interfacial misfit dislocations (IMF) or metamorphic buffer
+With the GaAs and GaSb lattice constants, therefore, the combined
+direct bandgap range available is roughly 0.3 eV to 1.9 eV.
+This presents a straightforward path to cells with 4, 5, or more
+junctions with only a single IMF layer required.
+
+
   
 Manufactured to specification.
 	

@@ -24,8 +24,55 @@ always_allow_html: true
 
 ### Intro
 
-One of the best paths for survival of deep-techs, is non-dilutive
-financing via EU and national grants.  
+[RFQ](mailto:kk@photin.eu?subject=Testing%20out%20mailto!&body=This%20is%20only%20a%20test!){:
+.btn .btn-blue} email me.
+
+<button type="button" class="btn btn-primary" href="mailto:kk@photin.eu?subject=Testing out mailto!&amp;body=This is only a test!">
+<span class="cil-contrast btn-icon mr-2"></span> Primary
+</button>
+
+<a class="btn btn-success" href="mailto:info@photin.eu?subject=[RFQ]InGaAsP structure&body=Dear Photin,\n We would like to ...">RFQ</a>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:left;">
+Team
+</th>
+<th style="text-align:right;">
+Wins
+</th>
+<th style="text-align:left;">
+Link
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="mailto:info@photin.eu?subject=[RFQ]InGaAsP structure&body=Dear Photin,
+ We would like to ..."><img src= "../assets/img/22_07_11_icmovpe/ic-movpe-logo.png" 
+                      alt="IC MOVPE"/></a>
+</td>
+<td style="text-align:left;">
+Boston Celtics
+</td>
+<td style="text-align:right;">
+82
+</td>
+<td style="text-align:left;">
+<a class="btn btn-success" href="mailto:info@photin.eu?subject=[RFQ]InGaAsP structure&body=Dear Photin,
+ We would like to ...">RFQ</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+[Click me](mailto:kk@photin.eu){: .btn} One of the best paths for
+survival of deep-techs, is non-dilutive financing via EU and national
+grants.  
 Photin is exploring this path for \~1 year. Recently, we had deepened
 our cooperation with [Military University of
 Technology](https://www.wtc.wat.edu.pl/) and [K.I.N.D.
@@ -45,15 +92,15 @@ Even for apparently mature InP/InGaAs detectors technology, passivation
 of small pixels is challenging
 (<https://doi.org/10.1109/JSEN.2020.2987006>).
 
-![](/../assets/img/230107_InnoGlobo2/deep_vs_shallow.png)<!-- -->
+<img src="/../assets/img/230107_InnoGlobo2/deep_vs_shallow.png" width="1202" />
 
 Passivation of antimonides is even more challenging than InGaAs/InP.
 
-![](/../assets/img/230107_InnoGlobo2/passivation_vada.png)<!-- -->
+<img src="/../assets/img/230107_InnoGlobo2/passivation_vada.png" width="1131" />
 
 ### List of InnoGlobo2 applications
 
-![](/../assets/img/230107_InnoGlobo2/lista.png)<!-- -->
+<img src="/../assets/img/230107_InnoGlobo2/lista.png" width="984" />
 
 We proudly announce, that our “PfBaAIRD” project passed formal criteria
 and is one of 16 projects selected for next stage review.
@@ -63,4 +110,4 @@ consortiums will receive grant. 42% is one of the highest chances one
 could have in grant applications.  
 We keep our thumbs!
 
-![](/../assets/img/230107_InnoGlobo2/1460x616.jpeg)<!-- -->
+<img src="/../assets/img/230107_InnoGlobo2/1460x616.jpeg" width="1460" />

@@ -16,7 +16,7 @@ layout: post
 
 cover-img: /assets/img/FZU/Aix200_RAS.png
 thumbnail-img: /assets/img/FZU/
-share-img: /assets/img/path.jpg
+# share-img: /assets/img/path.jpg
 tags: [MOCVD, Aixtron, reactor, RAS]
 always_allow_html: true
 ---

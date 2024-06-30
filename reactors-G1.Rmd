@@ -16,7 +16,7 @@ layout: page
 
 cover-img: ["assets/img/G1/G1_cntrl.JPG", "assets/img/G1/G1_GB_cntrl.JPG","assets/img/G1/G1_side.JPG"]
 thumbnail-img: /assets/img/G1/G1_GB_cntrl.JPG
-share-img: /assets/img/path.jpg
+share-img: /assets/img/G1/G1_GB_cntrl.JPG
 tags: [MOCVD, Aixtron, reactor]
 always_allow_html: true
 ---

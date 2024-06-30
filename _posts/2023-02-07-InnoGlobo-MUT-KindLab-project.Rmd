@@ -60,6 +60,25 @@ if (!is.null(knitr::current_input())){
 ```
 
 ### Intro
+[RFQ](mailto:kk@photin.eu?subject=Testing out mailto!&body=This is only a test!){: .btn .btn-blue} email me.  
+
+<button type="button" class="btn btn-primary" href="mailto:kk@photin.eu?subject=Testing out mailto!&body=This is only a test!"><span class="cil-contrast btn-icon mr-2"></span> Primary</button>
+
+
+<a class="btn btn-success" href="mailto:info@photin.eu?subject=[RFQ]InGaAsP structure&body=Dear Photin,\n We would like to ...">RFQ</a>  
+
+
+```{r test, echo=FALSE, out.width="50%"}
+tab <- tibble::tibble(" " = '<a href="mailto:info@photin.eu?subject=[RFQ]InGaAsP structure&body=Dear Photin,\n We would like to ..."><img src= "../assets/img/22_07_11_icmovpe/ic-movpe-logo.png" 
+                      alt="IC MOVPE"/></a>', 
+                      Team = "Boston Celtics", Wins = 82,
+                      "Link"='<a class="btn btn-success" href="mailto:info@photin.eu?subject=[RFQ]InGaAsP structure&body=Dear Photin,\n We would like to ...">RFQ</a>')
+
+knitr::kable(tab, format = "html", escape = FALSE)
+
+```
+
+[Click me](mailto:kk@photin.eu){: .btn}
 One of the best paths for survival of deep-techs, is non-dilutive financing via EU and national grants.  
 Photin is exploring this path for ~1 year.  Recently, we had deepened our cooperation with [Military University of Technology](https://www.wtc.wat.edu.pl/) and [K.I.N.D. Lab](https://ece.osu.edu/krishna-infrared-detector-k.i.n.d.-laboratory), which manifested in application for [InnoGlobo 2](https://www.gov.pl/web/ncbr/ii-konkurs-w-ramach-programu-innoglobo) in 2022.  
 The project is focused on low temperature IR detector passivation using MOCVD technology.  

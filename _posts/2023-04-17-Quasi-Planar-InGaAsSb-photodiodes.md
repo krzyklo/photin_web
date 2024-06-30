@@ -19,7 +19,6 @@ knit: (function(inputFile, encoding) {
 layout: post
 
 cover-img: ["/assets/img/230417_Quasi-Planar-Photodiodes/structure.jpeg",
-"/assets/img/230111_extended_InGaAs/Brolis_eSWIR_glucose1.png",
 "/assets/img/230417_Quasi-Planar-Photodiodes/I-V_graph.jpeg",
 "/assets/img/230417_Quasi-Planar-Photodiodes/Comparison.jpeg"
 ]
@@ -97,5 +96,4 @@ start in 2023.
 
 ### References
 
-<BR>  
 {% bibliography –cited %}

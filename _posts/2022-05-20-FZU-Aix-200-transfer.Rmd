@@ -9,7 +9,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, 
   encoding = encoding, 
-  output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md",inputFile)), 
+  output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md", inputFile)), 
   output_dir = "~/photin/krzyklo.github.io/_posts/") })
   
 layout: post
@@ -100,7 +100,6 @@ We told ourselves, this is our last reactor we collected, now we have enough har
 # All defaults
 include_graphics("../assets/img/220520_FZU_transfer/e-rack-flying.jpg")
 include_graphics("../assets/img/220520_FZU_transfer/loading2truck.jpg")
-include_graphics("../assets/img/220520_FZU_transfer/")
 include_graphics("../assets/img/220520_FZU_transfer/packed4dhl.jpg")
 ```
 
