@@ -70,3 +70,9 @@ use-site-title: true
   {% endif %}
 </ul>
 {% endif %}
+
+
+{% for product in site.products %}
+ {% include product.html %}
+{% endfor %}
+

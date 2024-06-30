@@ -5,8 +5,14 @@
 
 # --- Required options --- #
 
+<<<<<<< HEAD
 url: https://krzyklo.github.io/photin_web/InnoGlobo2/
 baseurl: ""
+=======
+url: https://krzyklo.github.io/photin_web/
+baseurl: ""
+
+>>>>>>> 683dde401b11286bd027cf170d6b787122fa5c9f
 
 # Name of website
 title: MOCVD Services
@@ -46,6 +52,7 @@ navbar-links:
       #    - Apsys : "know-apsys"
   
   Contact: "contact"
+  Products: "Products"
 
 # --- Logo --- #
 
@@ -301,4 +308,14 @@ scholar:
   style: apa
   source: /assets/img/230417_Quasi-Planar-Photodiodes/
   bibliography: Bibliography.bib
+
+collections:
+  products:
+    output: true
+  posts:
+    output: true
+    permalink: /posts/:path/
+  
+  
+  
 
