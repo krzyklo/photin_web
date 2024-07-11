@@ -17,7 +17,6 @@ author: Krzysztof Kłos
 
 navbar-links:
   News: "index"
-  Projects: "InnoGlobo2"
   Company: "company"
   MOCVD Reactors:   
     - 1. Aix200+RAS 1x2" : "reactors-Aix200RF-RAS"
