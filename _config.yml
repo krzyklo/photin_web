@@ -5,7 +5,7 @@
 
 # --- Required options --- #
 
-url: https://krzyklo.github.io/photin_web/InnoGlobo2/
+url: /InnoGlobo2/
 
 # Name of website
 title: MOCVD Services
@@ -58,7 +58,7 @@ navbar-links:
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: /assets/img/logo6_with_text_Photin_v1.png
+title-img: /assets/img/NCBR.png
 
 # --- Footer social media links --- #
 
