@@ -34,9 +34,9 @@ NASA](https://spie.org/defense-commercial-sensing/presentation/Applications-of-T
 Poland included (VIGO + IMIF)! Though, like most of players in worldwide
 (except UK), VIGO Photonics-MUT laboratory and Łukasiewicz IMIF use MBE
 technology to grow InAs/InAsSb and InAs/GaSb Type 2 superlattices for
-infrared detectors. MBE give is usually selected for
-antimonides+arsenides, though it is rather R&D technology, industrially
-more relevant is MOCVD due to lower costs.  
+infrared detectors. MBE is usually selected for antimonides+arsenides,
+though it is rather R&D technology, industrially more relevant is MOCVD
+due to lower costs.  
 Photin decided to grow a few T2SLs structures, just to showcase
 possibilities, and to test lines feeding MOCVD reactor with metalorganic
 precursors (In, As and Sb), as T2SLs are also great technique to test
