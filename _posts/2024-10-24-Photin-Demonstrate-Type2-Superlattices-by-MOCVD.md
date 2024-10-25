@@ -26,8 +26,8 @@ In recent 10 years, they are the one of the most researched material
 concept for infrared (in particular solar cells and detectors). Aimed to
 de-throne HgCdTe, material which still reign as the one with the best
 properties for IR detectors, except …the manufacturability. Type II
-Superlattices(T2SLs) made from InAs/InAsSb are actively developed in
-USA[JPL
+Superlattices(T2SLs) made from InAs/InAsSb are actively developed in USA
+[JPL
 NASA](https://spie.org/defense-commercial-sensing/presentation/Applications-of-T2SL-barrier-infrared-detectors-in-Earth-observational-instruments/13030-2#_=_%5D,%20(Germany)%5Bhttps://publica.fraunhofer.de/~%20/details%5D,%20(UK)%5Bhttps://www.sciencedirect.com/science/article/pii/S0022024822003426),
 [Israel](https://scdusa-ir.com/articles/type-ii-superlattice-infrared-detector-technology-at-scd/),
 [China](https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-21-38208&id=507573),
@@ -42,10 +42,6 @@ possibilities, and to test lines feeding MOCVD reactor with metalorganic
 precursors (In, As and Sb), as T2SLs are also great technique to test
 growth rates of InAs and InAsSb. To gauge T2SLs, single HR XRD
 measurement is sufficient.
-
-![](/../assets/img/241003_MOCVD_T2SL/SLS_XRD.png)<!-- -->
-
-Fig. 1 HR XRD measurement of T2SL structure, 20 periods, .
 
 <figure>
 <img src="{{site.url}}/assets/img/241003_MOCVD_T2SL/SLS_XRD.png" alt="Fig. 1. HR XRD measurement of T2SL structure, 20 periods"/>
