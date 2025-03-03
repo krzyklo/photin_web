@@ -15,6 +15,7 @@ gem "webrick", "~> 1.7", group: :jekyll_plugins
 #gem "jekyll", "~> 3.8"
 
 #gem 'github-pages', group: :jekyll_plugins
+gem "jekyll"
 gem "jekyll-gist"
 gem "jekyll-feed"
 gem "jemoji"
