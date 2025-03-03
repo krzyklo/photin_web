@@ -28,6 +28,8 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.2.0)
     benchmark (0.4.0)
+    bibtex-ruby (4.4.7)
+      latex-decode (~> 0.0)
     bigdecimal (3.1.9)
     citeproc (1.1.0)
       date
@@ -59,7 +61,7 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
-    ffi (1.17.1)
+    ffi (1.17.1-x86_64-linux-gnu)
     forwardable (1.3.3)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
@@ -93,6 +95,11 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-scholar (5.16.0)
+      bibtex-ruby (~> 4.0, >= 4.0.13)
+      citeproc-ruby (~> 1.0)
+      csl-styles (~> 1.0)
+      jekyll (~> 3.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
@@ -117,6 +124,7 @@ GEM
     mutex_m (0.3.0)
     namae (1.2.0)
       racc (~> 1.7)
+    nokogiri (1.15.7-x86_64-linux)
       racc (~> 1.4)
     observer (0.1.2)
     octokit (4.25.1)
@@ -152,6 +160,7 @@ GEM
       date
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    uri (1.0.3)
     webrick (1.9.1)
 
 PLATFORMS
