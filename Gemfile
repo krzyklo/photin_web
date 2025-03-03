@@ -20,4 +20,5 @@ gem "jekyll-gist"
 gem "jekyll-feed"
 gem "jemoji"
 gem "jekyll-include-cache"
-
+#added afer issue with Workflow GH: https://github.com/ffi/ffi/issues/1103
+gem "ffi", "< 1.17.0"
