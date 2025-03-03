@@ -8,7 +8,8 @@ _site
 Thumbs.db
 ehthumbs.db
 # https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/
-Gemfile.lock
+# removing this file from ignore where it has been put following Gemma Danks recomendation, as GH Paged do not build with bundler 2.4.22 
+#Gemfile.lock
 
 
 # https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
