@@ -292,15 +292,15 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-scholar
+    #  - jekyll-scholar
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
-scholar:
-  style: apa
-  source: /assets/img/230417_Quasi-Planar-Photodiodes/
-  bibliography: Bibliography.bib
+    #scholar:
+    #style: apa
+    #source: /assets/img/230417_Quasi-Planar-Photodiodes/
+    #bibliography: Bibliography.bib
 
 collections:
   products:
