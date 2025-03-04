@@ -9,7 +9,7 @@ gemspec
 #gem "github-pages", group: :jekyll_plugins
 #gem "jekyll-include-cache", group: :jekyll_plugins
 gem "jekyll-scholar", group: :jekyll_plugins
-gem "webrick", "~> 1.7", group: :jekyll_plugins
+#gem "webrick", "~> 1.7", group: :jekyll_plugins
 #gem "kramdown", "~> 1.14"
 #gem 'jekyll', '3.8.0' # <-- this line
 #gem "jekyll", "~> 3.8"
@@ -21,4 +21,5 @@ gem "jekyll-feed"
 gem "jemoji"
 gem "jekyll-include-cache"
 #added afer issue with Workflow GH: https://github.com/ffi/ffi/issues/1103
-gem "ffi", "< 1.17.0"
+#gem "ffi", "< 1.17.0"
+#gem "uri", "1.0.3"
