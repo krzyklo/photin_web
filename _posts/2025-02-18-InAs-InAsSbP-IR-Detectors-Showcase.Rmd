@@ -139,3 +139,4 @@ This is why we expect, that in longer term MOCVD InAs-InAsSb-InAsSbP will be fav
 
 No other Polish company, institute or university was able so far to showcase InAs ~3.5um detectors based on III-Sb semiconductors with better dark current performance than our reported results.  
 Currently Photin ability to grow Sb-based, 6.1A family of III-V compounds in MOCVD provide researchers unique opportunities in SWIR/MWIR device development.
+

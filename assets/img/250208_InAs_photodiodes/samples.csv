@@ -1,22 +1,7 @@
-9032,GaAs+AlAs+GaAs,,,,,,,,,,,,,,,,,,
-9102,InAs+Sb SL 1st trial ~10% Sb in InAs,,,,,,,,,,,,,,,,,,
-9121,InAs+P SLs,,,,,,,,,,,,,,,,,,
-9131,InAs+Sb SL 2nd trial with 2x Sb,,,,,,,,,,,,"T, K",qe,,,,,
-9132,no TBP during run – MFC goes to 0 every few seconds,,,,,area cm-2,"diameter, um","radius, um","area, cm-2","area, um2",,,300,1.60E-19,,,,,
-9161,"GaAs+Sb SLs 13 loops, 5s GaAsSb, 100s GaAs, 620C, 1” HiChem SI GaAs, TMGa +TBA",,,,,1.26E-03,400,200,1.26E-03,1.26E+05,,,kB,,,,,,
-9171,,,,,,,,,,,,,1.38E-23,,,,,,
-,,,,,,Vendor,diam [um],"radius, um","area, cm-2","R0A, Om*cm-2",Rdet ,,"Js, A/cm2",,,,,,
-,,,,,,,"1,000",500,7.86E-03,0.12,15.27,,0.22,,,,,,
-Mateusz Tokarczyk FUW przekazane 07.XI.2024,,,,,,,200,100,3.14E-04,0.2,636.62,,0.13,,,,,,
-Run nr,Structure,Substrate,Surface,,,,500,250,1.96E-03,1,509.30,,0.03,,,,,,
-9131,InAs+Sb SL 2nd trial with 2x Sb,InAs ¼,Splendid!,,,Vendor,"Diam., um","Radius, um","Area, cm-2","R0Atyp, Ohm.cm2",Rsh-min Ohm,Rsh-typ. Ohm,"Jsat, A/cm2","R0A / A, Ohm",Datasheet,MOQ,"Price, USD",Leadtime,Salesman
-10211,InAsSbP,InAs ¼,rough,,,VIGO,"1,000",500,7.86E-03,0.51,50,65,5.1E-02,65,PVA-3-1x1,,,,
-10212,InAsSbP,InAs ¼,rough,,mm2,Hamamatsu,"1,000",500,7.86E-03,0.55,40,70,4.7E-02,70,P10090-01,,,,
-10261,InQ (InAsSbP),InAs ¼,rough again!!,,0.049,Judson,250,125,4.91E-04,0.15,200,300,1.8E-01,300,J12-18C-R250U,10,587,?,"Mark Sediva, Sales Engineer"
-11061,InQ (InAsSbP),InAs ¼,dots,,,Judson,"1,000",500,7.85E-03,0.20,15,25,1.3E-01,25,J12-18C-R01M,10,646,?,"Mark Sediva, Sales Engineer"
-,,,,,,Photin,500,250,1.96E-03,2.10,,1070,1.2E-02,1070,Ph-IA3.5-0.5-RT,,,,
-,,,,,,LaserComp.,500,250,1.96E-03,0.09,450,44,3.0E-01,44,IA35,1,340,12 weeks,
-,,,,,,LMSNT,,,,,,,,,Lms36PD,3,340,12 weeks,
-,,,,,,,200x200,,4.00E-04,,,,0.625,,,5,340,12 weeks,
-,,,,,,Target,500,250,1.96E-03,1.00,509.3,,2.59E-02,509.30,,10,271,12 weeks,
-,,,,,,1,,,,,,,,,,,,,
+Vendor,"Diam., um","Radius, um","Area, cm-2","R0Atyp, Ohm.cm2",Rsh-min Ohm,Rsh-typ. Ohm,"Jsat, A/cm2","R0A / A, Ohm",Datasheet,Link1,Link2,PDF
+VIGO,"1,000",500,7.86E-03,0.51,50,65,5.1E-02,65,PVA-3-1x1,https://vigophotonics.com/product/pva-3-1x1-to39-nw-90/,https://vigophotonics.com/app/uploads/2024/07/PVA-3-detector-preliminary-datasheet.pdf,../../assets/img/250208_InAs_photodiodes/viewpdf.svg
+Hamamatsu,"1,000",500,7.86E-03,0.55,40,70,4.7E-02,70,P10090-01,https://www.hamamatsu.com/jp/en/product/optical-sensors/infrared-detector/inas-photovoltaic-detector/P10090-01.html,https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/p10090-01_etc_kird1099e.pdf,../../assets/img/250208_InAs_photodiodes/viewpdf.svg
+Judson,250,125,4.91E-04,0.15,200,300,1.8E-01,300,J12-18C-R250U,https://www.teledynejudson.com/products/indium-arsenide-detectors,https://www.teledynejudson.com/prods/Part%20Specs/420002PODr0.pdf,../../assets/img/250208_InAs_photodiodes/viewpdf.svg
+Judson,"1,000",500,7.85E-03,0.20,15,25,1.3E-01,25,J12-18C-R01M,https://www.teledynejudson.com/products/indium-arsenide-detectors,https://www.teledynejudson.com/prods/Part%20Specs/420003PODr0.pdf,../../assets/img/250208_InAs_photodiodes/viewpdf.svg
+Photin,500,250,1.96E-03,2.10,,"1,070",1.2E-02,1070,Ph-IA3.5-0.5-RT,http://www.photin.eu/,https://www.photin.eu,../../assets/img/250208_InAs_photodiodes/viewpdf.svg
+LaserComp.,500,250,1.96E-03,1.37,450,700,1.9E-02,700,IA35,https://www.lasercomponents.com/en/product/inas-900-3500-nm/,https://www.lasercomponents.com/fileadmin/user_upload/home/Datasheets/lc-ingaas/ia35s500-inas.pdf,../../assets/img/250208_InAs_photodiodes/viewpdf.svg
