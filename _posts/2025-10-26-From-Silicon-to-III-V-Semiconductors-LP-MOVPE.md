@@ -87,7 +87,7 @@ Managers:
 **“Let the young generation of engineers experiment, make mistakes, and
 search for new solutions!”.**
 
-In his speech he many times stresed, how his manager support enabled
+In his speech he many times stressed, how his manager support enabled
 this research.  
 Enjoy!
 
