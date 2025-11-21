@@ -57,7 +57,7 @@ if (!is.null(knitr::current_input())){
 
 ### Trumpf / Huttinger TIG/BIG Induction Heaters
 
-Over the 20 years, we have never seen TIG/BIG RF Induction Heater fail in the field! Never!, until **our one** in Aix-200RF reactor just stopped working in beginning of 2025.  
+Over the 20 years of work on growth of compound semiconductors, I have never seen TIG/BIG RF Induction Heater fail in the field! Never!, until **our one** in Aix-200RF reactor just stopped working in beginning of 2025.  
 
 <figure>
 

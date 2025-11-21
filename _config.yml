@@ -45,7 +45,9 @@ navbar-links:
       #    - Apsys : "know-apsys"
   
   Contact: "contact"
-  Products: "Products"
+  Products:
+    - InAs-on-GaAs: "products-InAs"
+    - InAs-MWIR-PD: "InAs-PD-samples"
 
 # --- Logo --- #
 
