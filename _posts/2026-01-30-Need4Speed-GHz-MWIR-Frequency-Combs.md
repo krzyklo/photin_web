@@ -28,6 +28,7 @@ G.Gomółka) tested all major commercial extended InGaAs detectors
 providers. Just to found out their 1-2.6um range are still too narrow
 for their research.. to see, measure and use [frequency
 combs](https://www.nist.gov/topics/physics/optical-frequency-combs).  
+combs](https://www.nist.gov/topics/physics/optical-frequency-combs).  
 We were thrilled to provide them custom InAs MWIR detector chips with
 small mesa, which they hoped to enable them to resolve GHz waveforms,
 and see long span frequency combs in all their beuaty.  
