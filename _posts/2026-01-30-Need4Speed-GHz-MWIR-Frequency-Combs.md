@@ -26,8 +26,8 @@ always_allow_html: true
 The team from Wroclaw University of Technology (L.Sterczewski,
 G.Gomulka) tested all major commercial extended InGaAs detectors
 providers. Just to found out they all are too slow for their research..
-sub-GHz frequencies are not enough to see, measure and use frequency
-combs.  
+sub-GHz frequencies are not enough to see, measure and use [frequency
+combs](https://www.nist.gov/topics/physics/optical-frequency-combs).  
 We were thrilled to provide them custom InAs MWIR detector chips with
 small mesa, which they hoped to enable them to resolve GHz waveforms.  
 Indeed, they were not disappointed! **!!GHz confirmed!!**  
@@ -64,3 +64,6 @@ the smallest circle(mesa) on the chip is our hero of the day
 </p>
 
 </div>
+
+*Big Thank You! goes to J.Pawluczyk, O.Slezak, and P.Martyniuk who made
+those chips from Photin wafers!*
