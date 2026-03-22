@@ -1,0 +1,470 @@
+---
+title: "PhotonQBoost Call: Evaluators Split 5 vs 3 on Impact — Yet No Consensus Was Required. Proposal unqualified."
+subtitle: "How inverted per-criterion scoring can mask a fundamental evaluator disagreement. Full evaluation, appeal, and responses shared transparently."
+author: "Krzysztof Kłos"
+date: "17/03/2026"
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+    toc: true
+    toc_depth: 3
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md",inputFile)),
+  output_dir = "~/photin/krzyklo.github.io/_posts/") })
+
+layout: post
+full-width: true
+
+tags: [PhotonQBoost, MOCVD, III-V, photonics, MWIR, EU grant, evaluation, InAs, antimonides]
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+library(stringr)
+library(ggplot2)
+library(rmarkdown)
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+```{r fig-options, include=FALSE}
+base_dir <- "~/photin/krzyklo.github.io/"
+base_url <- "/"
+
+if (!is.null(knitr::current_input())){
+  fig_path <- paste0("_site/assets/img/260317_PQBoost/", str_remove(knitr::current_input(), ".Rmd"), "/")
+  knitr::opts_knit$set(base.dir = base_dir, base.url = base_url)
+  knitr::opts_chunk$set(fig.path = fig_path,
+                      cache.path = '../cache/',
+                      message=FALSE, warning=FALSE,
+                      cache = FALSE)
+}
+```
+
+
+---
+
+We submitted three proposals to the [PhotonQBoost Open Call OC2-2025](https://photonqboost.eu/) — an EU-funded programme supporting SMEs in photonics and quantum technologies.
+One was **pre-selected** (Missions / Germany). Two were **rejected**.
+
+The core story of the Solutions proposal rejection is this: the two evaluators **disagreed by 2 full points on Impact** — the tie-deciding factor individual criterion — scoring it **5 vs 3**(*Exceptionally Addressed vs Adequately Addressed*). Under the programme's guidelines, such a raw divergence on a single criterion would normally be cause for concern. Yet because the same two evaluators scored Excellence in exactly the **opposite order** (4 vs 5), their weighted totals ended up almost identical (12.75 vs 12.30). The divergence check is applied to the total score, not per criterion — so the fundamental disagreement on Impact was completely masked. No consensus meeting was triggered. No human review occurred, despite appeals.  
+Evaluator 2's written feedback for Impact contains exclusively positive statements, with no weakness, no threat, and no criterion-specific deficiency identified — making the score of 3 entirely undocumented in writing.  
+
+We are sharing the full evaluation feedback, our appeal, and the programme's responses here — transparently — because the photonics and quantum community deserves to see how these processes actually work.
+EU has already identified problem with majority of R&D funding going to West EU countries, they tried to intervene and created [Widening programme](
+https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/widening-participation-and-spreading-excellence_en). 
+
+PhotonQBoost will not find procedural reasons to call consensus meeting, or pay for 3rd evaluator. Evaluator could not support his low Impact score, with any merit argument. The text comment is to limit arbitrary scores. Scoring is easy, justifying is much more difficult for Evaluators, who not have enough experience.  
+Why do we complain? We received excellent 12.7 score for 15 max.  
+Yet, they just trashed a lot of our work on proposal, and for small SME could mean live or death.  
+Yes!, instead of growing samples of semiconductors in the lab, we just generated pile of paper trash.  
+
+It would be much more transparent and fair (limiting Evaluator's questionable actions and negligence), if the rules of PhotonQBoost contest, would require scoring each of subcategory for main critera, and then take Impact score as average from subscores eg. for Impact:  
+• Qualitative and quantitative impact across the triple helix (economic, environmental, and social).  
+• Reductions in energy consumption and greenhouse gas emissions.  
+• Productivity and/or resilience gains.  
+• Impact in the Photonics and Quantum industries.  
+
+
+We are left with **nothing**, because even if we would like to apply again, we have no idea, how we could improve our proposal, as Evaluators score arbitrarily, and give NONE feedback about weaknesses, threats, or areas to improve!!  
+If evaluators would need to give subscores, we would at least know what we need to improve! as this is core idea of such process: provide honest feedback that allow to improve further idea or proposal.
+
+---
+
+## What is PhotonQBoost?
+
+PhotonQBoost (*Photonics and Quantum Technologies for Sustainable Industry*, project number 101177922) is a Horizon Europe programme funded by the European Health and Digital Executive Agency (HaDEA), with a total budget of €728,800. It supports SMEs operating in photonics or quantum sectors through four grant types:
+
+- **Solutions** — technology scale-up, TRL advancement (up to €50,000)
+- **Trainings & Services** — capacity building, removing company growth blockers (up to €10,000)
+- **Missions** — cross-border visits to build partnerships in target ecosystems
+- **Capitalisation** — not applied for
+
+Open Call OC2-2025 closed 19 January 2026. Results were issued 26 February 2026.
+
+---
+
+## What Photin Applied For
+
+[Photin sp. z o.o.](https://www.photin.eu) is a Polish deep-tech SME developing **MOCVD-grown InAs/InAsSbP MWIR infrared detectors** — the only EU entity which demonstrated this specific MOCVD antimonide epitaxy technology.
+Our technology is Al-free, Ga-free zero-bias photovoltaic mode, operating in the 1–3.5 µm mid-infrared range critical for gas sensing, spectroscopy, pyrometry, defence, and thermal imaging.
+
+### Solutions — Industrial Scale-up Proposal
+
+*"Industrial Scale-up of MOCVD technology of MWIR InAs/InAsSbP wafers and detectors"*
+
+Scale-up from TRL 6 to TRL 7/8 by implement real-time in-situ MOCVD process monitoring (0.5-1um spectrometer). Primary KPI: >50% device yield after processing.  
+*Strategic context: EU RoHS exemptions for HgCdTe and PbS/PbSe MWIR technologies expire ~2027. Photin's MOCVD InAs/InAsSbP technology could be one of incumbent EU-sourced alternative, to US, Japan, Russia and China suppliers.*
+
+### Trainings & Services — Capability Building
+
+Five specific growth blockers identified: Legal (IP/export), Technical Scaling, Reactor Maintenance, Market Data, PIC Integration. Five targeted training/service purchases to remove them — all within the €10,000 budget.
+
+### Missions — Germany (Stuttgart)
+
+Connection mission to PhotonicsBW ecosystem in Stuttgart: engaging with German automotive, sensing, and photonics integrators who need eSWIR-MWIR sensors and arrays.
+
+---
+
+## Results Summary
+
+```{r results-table}
+results <- data.frame(
+  Grant = c("Solutions", "Trainings & Services", "Missions"),
+  Status = c("Above Threshold – Not Selected",
+             "Above Threshold – Not Selected",
+             "PRE-SELECTED ✓"),
+  Impact = c("2.98/5", "2.84/5", "3.60/5"),
+  Excellence = c("4.62/5", "3.01/5", "4.50/5"),
+  Implementation = c("4.71/5", "4.16/5", "6.00/5 ⚠"),
+  Total = c("12.31/15", "10.01/15", "14.10/15")
+)
+
+knitr::kable(results,
+  caption = "PhotonQBoost OC2-2025 — Photin results (issued 26/02/2026)",
+  align = c("l","l","c","c","c","c"))
+```
+
+<small>⚠ Missions Implementation = 6.00/5 exceeds the maximum possible raw score of 5. This is discussed in the anomalies section below.</small>
+
+---
+
+## Evaluation Feedback
+
+### Solutions — Evaluator Comments
+
+> **Evaluator 1:**
+> Photin is already developing high performing sensors using semi conductors technologies. Those detectors are operating in midIR range, which is the favoured range for gas detection applications (environment, sustainability applications). Their product will have an impact on the EU supply chain but also on the triple helix. The work plan is detailed and ambitious without being unrealistic. Need to name the KPIs and milestones clearly and give a budget estimation for each WPs **Strong proposal.**
+
+> **Evaluator 2:**
+> Photin has successfully validated the underlying physics of its technology, as demonstrated through benchmarking against established industry players such as Hamamatsu and VIGO. However, the primary challenge lies in achieving consistent manufacturing yield. The proposed approach — enhancing the reactor with real-time monitoring and process control — constitutes a **critical engineering advancement.** This step directly addresses the scalability and reproducibility gap that often separates laboratory prototypes from commercially viable products, effectively positioning the company to bridge the so-called "Valley of Death" in technology maturation.
+
+**Final score: 12.31/15** (Impact: 2.98/5, Excellence: 4.62/5, Implementation: 4.71/5)
+
+#### The Inverted Scoring Paradox
+
+The individual pre-normalisation raw scores (released on appeal) reveal a striking pattern:
+
+```{r solutions-per-criterion}
+sol_crit <- data.frame(
+  Criterion = c("Impact (weight 25%)", "Excellence (weight 35%)", "Implementation (weight 40%)", "Weighted Total"),
+  Evaluator_1 = c("**5** ← highest", "4", "4", "12.75"),
+  Evaluator_2 = c("**3** ← lowest", "**5** ← highest", "4", "12.30"),
+  Divergence = c("**40% — critical disagreement**", "20% — minor", "0% — full agreement", "3.5% — triggers nothing")
+)
+knitr::kable(sol_crit,
+  col.names = c("Criterion", "Evaluator 1", "Evaluator 2", "Divergence"),
+  caption = "Solutions: per-criterion scores reveal inverted assessment of Impact vs Excellence")
+```
+
+Evaluator 1 rated Impact at 5 ("Exceptionally Addressed") and Excellence at 4. Evaluator 2 rated Impact at 3 ("Adequately Addressed") and Excellence at 5. Their assessments are essentially **inverted** on the two highest-stakes criteria. This inversion caused their weighted totals to converge — and the divergence check, which operates on totals, saw only a 3.5% difference and passed without any review.
+
+**Impact is the most important individual criterion in this call.** Per §4.3.7, in the event of a tie, Impact score is the first tiebreaker. A 2-point raw disagreement (5 vs 3) is the maximum possible spread across adjacent integer scores on a 0–5 scale.
+
+**Evaluator 2's written feedback provides zero support for a score of 3.** Impact score 3 means "Adequately Addressed — meets basic expectations but could be strengthened." Yet Evaluator 2 wrote:
+
+- *"successfully validated the underlying physics"* ✅
+- *"benchmarked against Hamamatsu and VIGO"* ✅
+- *"critical engineering advancement"* ✅
+- *"positioning the company to bridge the Valley of Death"* ✅
+
+No weakness identified. No threat mentioned. No Impact sub-criterion flagged as deficient. The written text is consistent with a score of 4–5, not 3. There is no documented basis in Evaluator 2's written assessment for an Impact score of 3.
+
+### Trainings & Services — Evaluator Comments
+
+> **Evaluator 1:**
+> Multiple training and services would be covered by the 10k€. **Big impact on the company** and good providers selected.
+
+> **Evaluator 2:**
+> It identifies five specific "blockers" to company growth (Legal, Technical Scaling, Maintenance, Market Data, PIC Integration) and proposes five specific, cost-effective solutions to remove them. **It is a high-ROI investment for the funder.**
+
+**Final score: 10.01/15** (Impact: 2.84/5, Excellence: 3.01/5, Implementation: 4.16/5)
+
+### Missions — Evaluator Comments
+
+> **Evaluator 1:**
+> Photin has a clear goal for the Stuttgart mission: connect with PhotonicsBW members. The CEO/Lead engineer would be the participant to the mission, with clear knowledge of the needs of the company & the technology side.
+
+> **Evaluator 2:**
+> Connecting a Polish **raw-material** and component manufacturer with the German automotive integration ecosystem represents a strong and well-justified cross-border synergy. The proposal articulates the strategic relevance of the mission and outlines credible long-term benefits, demonstrating good alignment with growth objectives. The SME shows adequate readiness to engage with the host ecosystem and explore collaboration opportunities. The team demonstrates solid expertise and a relevant value proposition, providing a sound basis for engagement. Overall, the mission is well positioned to generate meaningful outcomes, while further sharpening the partnership strategy and ambition could enhance its potential impact.
+
+**Final score: 14.10/15 — Pre-selected for Germany ✓**
+
+> **Note on Evaluator 2's characterisation:** Ev2 described Photin as a *"raw-material and component manufacturer."* This is factually incorrect. III-V semiconductor epitaxial wafers and MWIR detector chips are **advanced photonic components**, not raw materials. Raw materials in the semiconductor context are bulk substrates, precursor gases, and elemental sources. Photin grows structured InAs/InAsSbP epitaxial layers by MOCVD and processes them into functional photovoltaic detector devices — these are finished components at TRL 6–7. The mischaracterisation suggests limited familiarity with what constitutes core photonics in the III-V compound semiconductor domain.
+
+---
+
+## Anomalies Found
+
+Upon reviewing the results, two anomalies were identified.
+
+### 1. Inverted Per-Criterion Scoring Masks Impact Disagreement (Solutions)
+
+This is the central issue. The per-criterion divergence check is not prescribed by §4.3.6 — only the **total** weighted score divergence is checked. This creates a structural blind spot: two evaluators can disagree maximally on the most important criterion, yet produce nearly identical totals, and the process has no mechanism to flag it.
+
+For Solutions, Evaluator 1 and Evaluator 2 scored Impact at **5 and 3 respectively** — a 40% raw divergence on the single criterion with the highest strategic weight (tiebreaker in §4.3.7). They then scored Excellence in reverse order (4 and 5), producing totals of 12.75 and 12.30 — a 3.5% divergence that triggers no review.
+
+The practical consequence: the final normalised Impact score of 2.98 is the average of very different individual positions. **One evaluator considered Impact "Exceptionally Addressed"; the other considered it merely "Adequately Addressed."**  
+**The written feedback from the lower-scoring evaluator contains no documented justification for that lower score.**  
+
+- the written text contains **exclusively positive statements**,  
+- **no weakness, no threat, and no area for improvement** is identified anywhere in the ESR, and  
+- the score of 3 ("Adequately Addressed — meets basic expectations but could be strengthened") cannot be reconciled with phrases like "critical engineering advancement" and "bridge the Valley of Death."  
+
+The Solutions Impact score of 3 from Ev2, unsupported by any written justification, warrants some scrutiny, but not in PhotonQBoost.
+
+### 2. Evaluator Text vs. Score Contradiction
+
+Both Solutions and T&S show Impact scores below 3 (post-normalisation). Yet the evaluator text is exclusively positive:
+
+| Grant | Evaluator | Written Assessment | Implies Score |
+|-------|-----------|-------------------|---------------|
+| Solutions | Ev1 | "Strong proposal", "impact on EU supply chain and triple helix" | ≥ 3–4 |
+| Solutions | Ev2 | "critical engineering advancement", "bridge Valley of Death" | ≥ 3–4 |
+| T&S | Ev1 | "**Big impact** on the company" | ≥ 4 |
+| T&S | Ev2 | "**high-ROI investment** for the funder" | ≥ 4 |
+
+Per §4.3.4, a score below 3 means "Partially Addressed — touches on criterion but lacks detail or clarity." None of the written evaluations contain any such characterisation.
+
+---
+
+## The Normalisation Effect
+
+§4.3.6 describes a five-step normalisation process applied to remove evaluator bias:
+individual scores are scaled by a deviation factor derived from each evaluator's average
+across **all proposals they reviewed**, relative to the pool-wide average.
+
+The detail scores image (released on appeal, 17/03/2026) reveals the pre-normalisation weighted totals:
+
+```{r detail-scores-img, fig.cap="Pre-normalisation weighted scores per evaluator (released by PhotonQBoost on appeal)", out.width="100%"}
+knitr::include_graphics("~/photin/krzyklo.github.io/assets/img/260317_PQBoost/detail_scores.png")
+```
+
+```{r normalisation-table}
+norm_data <- data.frame(
+  Grant = c("Solutions", "Solutions", "T&S", "T&S"),
+  Evaluator = c("Evaluator 1", "Evaluator 2", "Evaluator 1", "Evaluator 2"),
+  Impact_raw = c(5, 3, 4, 5),
+  Excellence_raw = c(4, 5, 4, 4),
+  Implementation_raw = c(4, 4, 5, 4),
+  Weighted_Total = c(12.75, 12.30, 13.20, 12.90)
+)
+knitr::kable(norm_data, col.names = c("Grant","Evaluator","Impact (raw)","Excellence (raw)","Implementation (raw)","Weighted Total"),
+  caption = "Pre-normalisation raw scores and weighted totals")
+```
+
+Key observations from normalisation:
+
+| Grant | Pre-norm average | Final reported | Change | % Change |
+|-------|-----------------|----------------|--------|----------|
+| Solutions | 12.525 | 12.31 | −0.215 | −1.7% |
+| T&S | 13.050 | 10.01 | −3.04 | **−23.3%** |
+
+The T&S score was reduced by **3.04 points (−23%)** through normalisation. Both evaluators agreed closely on T&S (13.20 vs 12.90, divergence = 2.3%), so no consensus meeting was triggered. The large correction was applied silently and automatically.
+
+The divergence formula (`min/max − 100%`) for both grants:
+
+- Solutions: 12.30/12.75 − 1 = **−3.5%** → far below 20% threshold
+- T&S: 12.90/13.20 − 1 = **−2.3%** → far below 20% threshold
+
+Per §4.3.6, consensus meetings require *both* normalised divergence > 20% *and* original divergence > 10%. Since both original divergences are below 10%, no consensus meeting could ever be triggered for these grants regardless of normalisation outcome.
+
+---
+
+## The Appeal
+
+Appeal filed 02/03/2026 within the 5-day deadline.
+Key arguments raised:
+
+1. **Inverted scoring / undocumented Impact**: Evaluator 2 (Solutions) scored Impact at 3 while writing exclusively positive statements — no weakness, no deficiency, no threat identified. Score of 3 requires documented "could be strengthened" — absent from the ESR.
+2. **Score–text contradiction**: Evaluator 1 (Solutions) wrote "Strong proposal" with explicit impact claims — inconsistent with the **normalised** Impact score below 3.
+3. **Incomplete SWOT**: Both Solutions and T&S Evaluators provided only positive characterisations. Neither identified a weakness, opportunity, or threat as required by §4.3.7.
+4. **Incomplete sub-criteria evaluation**: Neither evaluator addressed Impact sub-criteria 2–4 (GHG/energy reductions, productivity/resilience, Photonics & Quantum impact) in written commentary.
+5. **Request for individual per-criterion scores** to verify divergence procedure was followed.
+
+<details>
+<summary><strong>Full Appeal Text (click to expand)</strong></summary>
+<div style="background:#f8f9fa; border-left:4px solid #6c757d; padding:1em; margin:1em 0; font-family:monospace; font-size:0.9em;">
+<p><strong>From:</strong> Krzysztof Kłos &lt;kk@photin.eu&gt;<br>
+<strong>To:</strong> photonqboost@eura-ag.de<br>
+<strong>Date:</strong> 02/03/2026 11:03<br>
+<strong>Subject:</strong> Photon QBoost Appeal, Application ID: 691dde2f1f7cc0e301897f6a</p>
+<p>Dear PhotonQBoost Team,</p>
+<p>I write to appeal from decision based on Scoring, as serious Inconsistencies, Factual Errors and deficiencies by the Evaluators in their ESR feedback of Photin proposal.</p>
+<p><strong>SOLUTIONS</strong> — Impact: 2.98/5, Excellence: 4.62/5, Implementation: 4.71/5, Total: 12.31/15</p>
+<p>Evaluator 1 explicitly characterized the proposal as 'Strong' in their written assessment. Per the scoring rubric, this characterization is inconsistent with a sub-3 Impact score, which by definition means 'Partially Addressed — touches on criterion but lacks detail or clarity.' For the final normalized Impact score to reach 2.98 despite Evaluator 1's 'Strong' characterization, Evaluator 2 must have assigned an Impact score of approximately 1–2. A divergence of this magnitude between the two evaluators should have triggered the consensus procedure defined in Section 4.3.6.</p>
+<p>Evaluator 2's written assessment contains no reference to any of the four Impact sub-criteria defined in Section 4.3.1. The feedback addresses solely the technical/Excellence dimension of the proposal. The complete absence of any Impact-related commentary from Evaluator 2 raises a procedural question: on what documented basis was the Impact score assigned?</p>
+<p>The entire written feedback is positive or neutral:</p>
+<ul>
+<li>Physics validated ✅</li>
+<li>Benchmarked against market leaders ✅</li>
+<li>Process control approach is "critical engineering advancement" ✅</li>
+<li>Positions company to bridge Valley of Death ✅</li>
+</ul>
+<p>There is no documented basis in Evaluator 2's written assessment for assigning a sub-3 Impact score.</p>
+<p>Per Section 4.3.7, the ESR must contain individual comments per evaluator with a SWOT matrix. Evaluator 2's SWOT is incomplete — no Threat element identified.</p>
+<p><strong>TRAININGS &amp; SERVICES</strong> — Impact: 2.84/5, Excellence: 3.01/5, Implementation: 4.16/5, Total: 10.01/15</p>
+<p>Evaluator 1 explicitly wrote 'Big impact on the company' — a direct positive characterisation of the Impact criterion — yet the score corresponds to 'Partially Addressed'. This is internally inconsistent per the scoring rubric.</p>
+<p>Evaluator 2 characterised the proposal as 'high-ROI investment for the funder' with no negative observations. No documented basis exists for a sub-3 Impact score from Evaluator 2.</p>
+<p>Neither evaluator addressed the three defined T&amp;S Impact sub-criteria (triple helix, SME resilience/sustainability, Photonics &amp; Quantum impact) in their written assessment.</p>
+<p><strong>Missions:</strong> Implementation = 6.00/5. Maximum possible raw score is 5. This value appears in the ESR as a per-criterion result and exceeds the defined scale.</p>
+<p>We formally request:</p>
+<ol>
+<li>Disclosure of individual per-criterion scores from each evaluator</li>
+<li>Confirmation that the divergence check formula (min/max − 100%) was applied</li>
+<li>If divergence exceeded 20% in normalized scores and 10% in original scores — confirmation that a consensus meeting was convened</li>
+<li>If consensus was not reached — confirmation that a 3rd evaluator was engaged per Section 4.3.6</li>
+</ol>
+<p>Sincerely,<br>Krzysztof Klos, PhD — Photin sp. z o.o.</p>
+</div>
+</details>
+[Note: subsequent disclosure showed Ev2 Impact score was 3, not 1–2].
+
+---
+
+## PhotonQBoost Responses
+
+### First Response — 13/03/2026
+
+> *"After carefully reviewing the points raised in your appeal and re-examining the evaluation process, we confirm that no factual errors have been identified in the evaluators' comments or in the calculation of the final scores. The evaluation was conducted in accordance with the procedures described in the PhotonQBoost Guidelines for Applicants. Each proposal was independently assessed by two evaluators using the defined scoring scale. Scores were subsequently weighted and normalised, which in some cases results in values below 3; these are still above threshold, as the original scores before weighting are greater than 3."*
+
+This response clarified the threshold mechanism (raw scores, not normalised, are checked against the 3-point minimum) but did not address the score–text contradictions or the individual score disclosure request.
+
+### Follow-up Request — 13/03/2026
+
+We replied:
+
+> *"Please share detailed, single scoring and reports from two Evaluators for confirmation that process was properly conducted in accordance with Guidelines."*
+
+### Second Response — 17/03/2026 (with detail scores)
+
+> *"Please find attached the original scores per evaluator. Note that these scores are subsequently processed through the normalisation procedure according to the Guidelines. That said, we confirm that in neither case was a consensus meeting required. Please also note that only one appeal per application is allowed, and with this email, we consider the appeal closed."*
+
+The attachment (detail_scores.png, shown above) confirmed the pre-normalisation weighted totals and revealed that both evaluators agreed well on all scores. The programme confirmed no consensus meeting was required.
+
+<details>
+<summary><strong>Full correspondence (click to expand)</strong></summary>
+<div style="background:#f8f9fa; border-left:4px solid #6c757d; padding:1em; margin:1em 0; font-size:0.9em;">
+<p><strong>First response (13/03/2026 14:53) — PhotonQBoost to Photin:</strong></p>
+<p>Dear Krzysztof,</p>
+<p>Thank you for your appeal regarding the evaluation results of your applications submitted to the PhotonQBoost Open Call OC2-2025.</p>
+<p>We appreciate the time and effort you have taken to review the Evaluation Summary Reports (ESRs) and to communicate your concerns.</p>
+<p>After carefully reviewing the points raised in your appeal and re-examining the evaluation process, we confirm that no factual errors have been identified in the evaluators' comments or in the calculation of the final scores. The evaluation was conducted in accordance with the procedures described in the PhotonQBoost Guidelines for Applicants. Each proposal was independently assessed by two evaluators using the defined scoring scale. Scores were subsequently weighted and normalised, which in some cases results in values below 3; these are still above threshold, as the original scores before weighting are greater than 3.</p>
+<p>As outlined in the Guidelines, the appeals procedure is intended to address factual or procedural errors in the evaluation process. It is important to note that the PhotonQBoost Team does not reassess or reinterpret the evaluators' opinions or scoring unless a clear factual error is demonstrated. Differences of opinion regarding the evaluators' assessments, interpretations, or judgments are not considered valid grounds for appeal.</p>
+<p>In this case, our review confirmed that the evaluation and scoring were carried out in line with the established methodology and weighting of criteria defined in the call documentation. For this reason, the original evaluation outcome remains unchanged.</p>
+<p>We thank you for your interest in the PhotonQBoost programme and the effort invested in your application. We encourage you to consider applying again in future PhotonQBoost open calls, with the next call expected to be launched at the end of 2026.</p>
+<p>Kind regards, PhotonQBoost Team</p>
+<hr>
+<p><strong>Second response (17/03/2026 12:47) — PhotonQBoost to Photin:</strong></p>
+<p>Dear Krzysztof,</p>
+<p>Please find attached the original scores per evaluator. Note that these scores are subsequently processed through the normalisation procedure according to the Guidelines.</p>
+<p>That said, we confirm that in neither case was a consensus meeting required. Please also note that only one appeal per application is allowed, and with this email, we consider the appeal closed.</p>
+<p>We thank you for your interest in the PhotonQBoost programme and the effort invested in your application. We encourage you to consider applying again in future PhotonQBoost open calls, with the next call expected to be launched at the end of 2026.</p>
+<p>Best regards, The PhotonQBoost Team</p>
+</div>
+</details>
+
+---
+
+## What the Numbers Actually Show
+
+The release of individual evaluator scores allows a definitive analysis.
+
+### The Inverted Scoring Problem (Solutions)
+
+The two evaluators did not agree on Solutions — they agreed on the *total* while fundamentally disagreeing on *what was good*:
+
+| Criterion | Evaluator 1 | Evaluator 2 | Raw divergence |
+|-----------|-------------|-------------|----------------|
+| **Impact** (weight 25%, tiebreaker) | **5** | **3** | **40%** |
+| Excellence (weight 35%) | 4 | 5 | 20% |
+| Implementation (weight 40%) | 4 | 4 | 0% |
+| **Weighted total** | **12.75** | **12.30** | **3.5%** |
+
+The opposing Impact and Excellence scores cancelled each other out arithmetically. The divergence algorithm, working on totals, saw 3.5% and moved on. The system was designed to catch evaluators who disagree overall — it has no mechanism to catch evaluators who disagree on *which parts* are good.
+
+**Impact matters a lot.** It is the first tiebreaker in §4.3.7, and as such it could be deciding factor. It assesses long-term market and societal effect. Ev1 scored it at 5 — "Exceptionally Addressed, fully meets or exceeds expectations." Ev2 scored it at 3 — "Adequately Addressed, meets basic expectations but could be strengthened."
+
+**These are opposite conclusions**. Neither is "wrong" in a procedural sense — both are valid evaluator judgements, and the procedure does not require consensus here. But Ev2's written text gives **no justification** for the lower score: only validated physics, industry benchmarking, and a "critical engineering advancement" are mentioned. A score of 3 requires documented evidence that the response "could be strengthened" in some identified way. No such identification exists in the ESR.
+
+### The Normalisation Problem (T&S)
+
+For T&S, both evaluators agreed closely (13.20 vs 12.90 — 2.3% divergence). Yet normalisation reduced the final score from 13.05 → 10.01, a **−23% reduction**:
+
+| Grant | Pre-norm average | Final reported | Change | % Change |
+|-------|-----------------|----------------|--------|----------|
+| Solutions | 12.525 | 12.31 | −0.215 | −1.7% |
+| T&S | 13.050 | 10.01 | −3.04 | **−23.3%** |
+
+This automatic correction was applied without any human review, since the total divergence (2.3%) was far below the 10% threshold for consensus trigger. Both evaluators were apparently "generous" scorers relative to the pool average — their scores were scaled down together, landing T&S just above the 10-point disqualification threshold.
+
+**What is certain:**
+
+- Solutions: evaluators fundamentally disagreed on Impact (5 vs 3) — the most strategically important criterion — but the scoring system's total-based divergence check did not flag this
+- T&S: evaluators agreed on ~13/15; normalisation silently reduced it by 3 points to 10.01 with no human review
+- In both cases, the written feedback from the evaluators does not support the low Impact scores delivered
+
+---
+
+## The Technology Is Real
+
+Regardless of scoring mechanics, the MOCVD InAs/InAsSbP technology we developed exists, works and its products were checked and verified by specialists. The yield requires work = growing more wafers, but this can be done only with some funding available.  
+
+Thanks to Photin R&D effort, ~250 of MWIR InAs/InAsSbP detectors were produced in 2025, characterised and benchmarked against Judson, Hamamatsu, and VIGO devices. Our detectors are being used in research on frequency combs and ICL lasers at Wrocław University of Technology (WUT). Military University of Technology (MUT) study deep physics of the devices and experiment on their passivation.
+The scale-up challenge is yield — getting from ~10% to >50% device yield. This is an engineering problem with a known solution requiring experiments and trial and error.
+That is exactly what the Solutions grant was designed to fund.  
+
+EU RoHS exemptions for competing HgCdTe and PbS/PbSe technologies expire ~2027. 
+The strategic timing has not changed.
+
+---
+
+## Conclusion
+
+We had really hoped for getting consensus meeting between Evaluators, or even getting third Evaluator assess our proposal. Then it would be easier to come to terms with outcome. As of now, we have no idea, what we could improve in our proposal, We feel, that 2nd Evaluator experience was lacking (calling our business area "raw materials", instead of core photonics or semiconductors), and did not justify his score, with indication of weakness, threat or areas to improve. The QBoost rules permitted this.  
+
+The Missions grant outcome is positive — we are pre-selected for the Germany (Stuttgart) mission and will engage with the PhotonicsBW ecosystem.  
+
+For Solutions and T&S, the evaluation story is more complex. The written evaluator feedback was positive. The pre-normalisation scores showed good inter-evaluator agreement. The post-normalisation scores were dramatically reduced for T&S (−23%), crossing from "competitive" into "barely above disqualification threshold" territory — automatically, without human review.
+
+We share this transparently because:
+
+1. Other SMEs applying to similar calls should understand, that **normalisation can have a very large effect** on final scores, independent of how well individual evaluators rate your proposal.
+2. The ESR format (which reports post-normalisation scores) can be misleading — a "2.98/5 Impact" does not mean both evaluators scored Impact at ~3; it may reflect one evaluator scoring 5 and another scoring 3, post-normalisation averaged and reduced.
+3. **Evaluators can fundamentally disagree on the most important criterion while the system's divergence check never triggers** — because opposing scores on two criteria cancel each other out at the total level.
+4. When evaluator text and scores appear contradictory, the explanation is sometimes in the normalisation step — but it can also reflect a score that was simply not documented in the written feedback.
+5. We call for introducing subcriteria independent scoring and averaging, to make Evaluation process more transparent, honest and fair.  
+
+We will apply again in OC3, expected Q4 2026.
+
+**If you work in III-V photonics, MOCVD, compound semiconductors, or MWIR applications — [get in touch](https://www.photin.eu).**
+
+---
+
+## Appendix: Documents
+
+<details>
+<summary><strong>Application PDF</strong></summary>
+<p>Full application: <a href="/assets/img/260317_PQBoost/Photin_final_application.pdf">Photin_final_application.pdf</a></p>
+</details>
+
+<details>
+<summary><strong>Evaluation Summary Reports (ESRs)</strong></summary>
+<ul>
+<li><a href="/assets/img/260317_PQBoost/Solutions_zjO_x5dNDGaPs-1HRp-_d_ESR_Solutions_691dde2f1f7cc0e301897f6a.pdf">Solutions ESR</a></li>
+<li><a href="/assets/img/260317_PQBoost/Trainings_Rl3smGXdSw41UeDOuKS1m_ESR_TS_691dde2f1f7cc0e301897f6a.pdf">Trainings &amp; Services ESR</a></li>
+<li><a href="/assets/img/260317_PQBoost/Missions_s_K5CWhh8Tsqh3XMoEY_M_ESR_Mis_691dde2f1f7cc0e301897f6a.pdf">Missions ESR</a></li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Guidelines for Applicants</strong></summary>
+<p><a href="/assets/img/260317_PQBoost/PhotonQBoost_Guidelines_For_Applicants_OC2-2025-1.pdf">PhotonQBoost_Guidelines_For_Applicants_OC2-2025-1.pdf</a></p>
+</details>
+
+---
+
+*PhotonQBoost is funded by the European Union under Horizon Europe.*
