@@ -47,8 +47,7 @@ while.
 Long term it turned out to be excellent decision.  
 InP platform give much more insight and control.. excellent ECV for
 background doping confirmation, specular surfaces, lattice matched
-ternary InGaAs, and excellent InP substrates from our reliable partner
-(Sumitomo). On such platform, any equipment problem is immediately
+ternary InGaAs. On such platform, any equipment problem is immediately
 obvious.  
 It was great joy to go back to materials we have so much commercial
 experience, and are so familiar with epi-designs:  
