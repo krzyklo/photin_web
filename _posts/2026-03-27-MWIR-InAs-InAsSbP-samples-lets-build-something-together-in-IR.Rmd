@@ -1,0 +1,74 @@
+---
+title: MWIR InAs-InAsSbP samples 
+subtitle: Lets build something together in IR
+author: "Krzysztof Kłos"
+date: "27/03/2026"
+output:
+  #pdf_document: default
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_file=paste0(Sys.Date(), "-", sub(".Rmd", ".md",inputFile)), 
+  output_dir = "~/photin/krzyklo.github.io/_posts/") })
+  
+layout: post
+
+cover-img: ["../assets/img/260327_MWIR-Inas-Samples/lets_build_together_made_in_poland.jpg"]
+thumbnail-img: /assets/img/251228_InGaAsP/lets_build_together_made_in_poland.jpg
+share-img: /assets/img/251228_InGaAsP/lets_build_together_made_in_poland.jpg
+tags: [news, release, InGaAsP, PICs, lasers, regrowth]
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+library(stringr)
+library(ggplot2)
+library(rmarkdown)
+library(knitr)
+library(readr)
+
+#cover-img: ../img/E0_with_bubblers.jpeg
+```
+
+```{r fig-options, include=FALSE}
+base_dir <- "~/photin/krzyklo.github.io/" # i.e. where the jekyll blog is on the hard drive.
+base_url <- "/" # keep as is
+
+# If the document is currently being knit, do this; skip it in normal execution
+if (!is.null(knitr::current_input())){
+  
+  # Output path for figures
+  fig_path <- paste0("_site/assets/img/260327_MWIR-Inas-Samples/", str_remove(knitr::current_input(), ".Rmd"), "/")
+  
+  # Set base directories
+  knitr::opts_knit$set(base.dir = base_dir, base.url = base_url)
+  
+  # Set figure directories
+  knitr::opts_chunk$set(fig.path = fig_path,
+                      cache.path = '../cache/',
+                      message=FALSE, warning=FALSE,
+                      cache = FALSE)
+}
+
+```
+
+We were looking for easy way to protect our samples of MWIR InAs detectors chips for shipment to customer, so they would be well protected, couldn't be mixed up, take least amount of space, and be inexpensive.  
+During brainstorming, we "stepped on something", which turned out to be perfect package for small batch of semiconductor chips.  
+Lets build something together in infrared.  
+
+**#Made in Poland, #Made in EU**
+
+```{r bwlego1, out.width="99%", fig.cap='MWIR detector chips in small LEGO enclosure', fig.show='hold', echo=F, message = F, warning=F}
+knitr::include_graphics("../assets/img/260327_MWIR-Inas-Samples/bw1.jpg")
+```
+
+
+```{r bwlego2, out.width="99%", fig.cap='MWIR detector chips in small LEGO enclosure', fig.show='hold', echo=F, message = F, warning=F}
+knitr::include_graphics("../assets/img/260327_MWIR-Inas-Samples/bw2.jpg")
+```
+```{r plego, out.width="99%", fig.cap='MWIR detector chips in small LEGO enclosure', fig.show='hold', echo=F, message = F, warning=F}
+knitr::include_graphics("../assets/img/260327_MWIR-Inas-Samples/made_in_poland1.jpg")
+```
