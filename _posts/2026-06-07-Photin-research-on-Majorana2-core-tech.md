@@ -16,9 +16,9 @@ knit: (function(inputFile, encoding) {
   
 layout: post
 
-cover-img: ["../assets/img/260605_Fast-InAs-Preprin-Arxiv/ms-chip-majorana2.jpg"]
-thumbnail-img: /assets/img/260605_Fast-InAs-Preprin-Arxiv/ms-chip-majorana2.jpg
-share-img: /assets/img/251228_InGaAsP/lets_build_together_made_in_poland.jpg
+cover-img: ["../assets/img/260607_Majorana2_core_tech/ms-chip-majorana2.jpg"]
+thumbnail-img: /assets/img/260607_Majorana2_core_tech/ms-chip-majorana2.jpg
+share-img: /assets/img/260607_Majorana2_core_tech/ms-chip-majorana2.jpg
 tags: [news, Quantum, Majorana, InAsSb, InAs, GaSb, Microsoft Quantum]
 always_allow_html: true
 ---
@@ -40,7 +40,7 @@ description in Supplementary information says:
 
 <div class="figure">
 
-<img src="/../assets/img/260605_Fast-InAs-Preprin-Arxiv/ms-majorana1-layers.png" alt="Informations about Majorana 1 semiconductor layers" width="50%" /><img src="/../assets/img/260605_Fast-InAs-Preprin-Arxiv/ms-majorana1-layers2.png" alt="Informations about Majorana 1 semiconductor layers" width="50%" />
+<img src="/../assets/img/260607_Majorana2_core_tech/ms-majorana1-layers.png" alt="Informations about Majorana 1 semiconductor layers" width="50%" /><img src="/../assets/img/260607_Majorana2_core_tech/ms-majorana1-layers2.png" alt="Informations about Majorana 1 semiconductor layers" width="50%" />
 <p class="caption">
 Informations about Majorana 1 semiconductor layers
 </p>
@@ -63,7 +63,7 @@ composite quantum well from InAs and InAsSb.
 
 <div class="figure">
 
-<img src="/../assets/img/260605_Fast-InAs-Preprin-Arxiv/ms-majorana2-layers2.png" alt="Informations about Majorana 2 semiconductor layers" width="50%" /><img src="/../assets/img/260605_Fast-InAs-Preprin-Arxiv/ms-majorana2-description.png" alt="Informations about Majorana 2 semiconductor layers" width="50%" />
+<img src="/../assets/img/260607_Majorana2_core_tech/ms-majorana2-layers2.png" alt="Informations about Majorana 2 semiconductor layers" width="50%" /><img src="/../assets/img/260607_Majorana2_core_tech/ms-majorana2-description.png" alt="Informations about Majorana 2 semiconductor layers" width="50%" />
 <p class="caption">
 Informations about Majorana 2 semiconductor layers
 </p>
@@ -111,7 +111,7 @@ project](https://www.photin.eu/InnoGlobo2/).
 
 <div class="figure">
 
-<img src="/../assets/img/260605_Fast-InAs-Preprin-Arxiv/MWIR-Reflectance-In-Situ.png" alt="In-situ reflectance and SIMS" width="50%" /><img src="/../assets/img/260605_Fast-InAs-Preprin-Arxiv/SIMS.png" alt="In-situ reflectance and SIMS" width="50%" />
+<img src="/../assets/img/260607_Majorana2_core_tech/MWIR-Reflectance-In-Situ.png" alt="In-situ reflectance and SIMS" width="50%" /><img src="/../assets/img/260607_Majorana2_core_tech/SIMS.png" alt="In-situ reflectance and SIMS" width="50%" />
 <p class="caption">
 In-situ reflectance and SIMS
 </p>
@@ -155,7 +155,7 @@ devices of tomorrow.
 
 <div class="figure">
 
-<img src="/../assets/img/260605_Fast-InAs-Preprin-Arxiv/MWIR-IMF_GaSb-InAsSb-XRD.png" alt="XRD of GaSb-InAsSb structure" width="99%" />
+<img src="/../assets/img/260607_Majorana2_core_tech/MWIR-IMF_GaSb-InAsSb-XRD.png" alt="XRD of GaSb-InAsSb structure" width="99%" />
 <p class="caption">
 XRD of GaSb-InAsSb structure
 </p>
