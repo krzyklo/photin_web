@@ -1,5 +1,5 @@
 ---
-title: Photin reseach Majorana2 core quantum technology materials
+title: Photin research Majorana2 core quantum technology materials
 subtitle: Topological Superconductivity in InAs-InAsSb semiconductors for quantum computers and qbits
 author: "Krzysztof Kłos"
 date: "07/06/2026"
