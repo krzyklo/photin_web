@@ -8,7 +8,7 @@
 url: "" 
 
 # Name of website
-title: MOCVD Services
+title: III-V Epitaxy
 
 # Your name to show in the footer
 author: Krzysztof Kłos
@@ -16,7 +16,7 @@ author: Krzysztof Kłos
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  News: "index"
+  News: "news"
   Projects: "InnoGlobo2"
   Company: "company"
   MOCVD Reactors:   
@@ -45,9 +45,9 @@ navbar-links:
       #    - Apsys : "know-apsys"
   
   Contact: "contact"
-  Products:
-    - InAs-on-GaAs: "products-InAs"
-    - InAs-MWIR-PD: "InAs-PD-samples"
+  Products: "index"
+#    - InAs-on-GaAs: "products-InAs"
+#    - InAs-MWIR-PD: "InAs-PD-samples"
 
 # --- Logo --- #
 
@@ -96,7 +96,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Photin - compound semiconductors wafers
+rss-description: Photin - compound semiconductors III-V epitaxy wafers
 
 # --- General options --- #
 

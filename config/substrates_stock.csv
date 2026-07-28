@@ -1,0 +1,6 @@
+# Updated: 2026-05-12,,,,,,,,,,
+Material,Size,Orientation,Offcut,Toward,Doping,Dopant,Vendor,Quantity,Price,Note
+GaAs,"2""",(100),2°,[011],n-type,Si,WFT,10,150, 20 pieces EPD 4k
+InAs,"2""",(100),0°+-2,[011],n-type,Sn,N/A,3,500,miscut 2°
+GaSb,2”,(100),0°,[011],n-type,Te,E3,3,500,
+InP,"2""",(100),2°,[110],n-type,S,SMT,10,300,
