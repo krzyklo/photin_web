@@ -1,0 +1,11 @@
+---
+layout: home
+title: News
+subtitle: ""
+use-site-title: true
+permalink: /news/
+---
+
+{% for product in site.products %}
+ {% include product.html %}
+{% endfor %}
