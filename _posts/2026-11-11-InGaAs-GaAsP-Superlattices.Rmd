@@ -55,13 +55,15 @@ if (!is.null(knitr::current_input())){
 
 *K. Kłos ([Photin](https://www.photin.eu)), C. Rivera ([Waptel](https://waptel.es))*
 
-InGaAs/GaAsP superlattices (SLs) are actively developed worldwide, as the number of their applications increases steadily [1]. The main idea is to take advantage of the mature GaAs platform, and extend the wavelength of edge lasers, VCSELs, LEDs, SOAs, modulators, detectors [2], solar cells, and power converters from 870nm up to ~1050nm-1100nm, to match with the YDF fiber amplifiers ecosystem and technology.
+*This post is the abstract submitted to the [11th Workshop on Semiconductor Lasers Physics and Technology](https://11thlaserworkshop.candela.org.pl/), organized by Candela Foundation.*
+
+InGaAs/GaAsP superlattices (SLs) are actively developed worldwide, as the number of their applications increases steadily [1]. The main idea is to take advantage of the mature GaAs platform, and extend the wavelength of [edge lasers](https://www.photonicsonline.com/doc/aluminum-free-technology-improves-diode-laser-0001), [VCSELs](https://www.linkedin.com/pulse/third-wave-vcsel-demand-why-1060-nm-back-ai-scale-up-tao-li-w3zff/), LEDs, SOAs, modulators, detectors [2], solar cells, and power converters from 870nm up to ~1050nm-1100nm, to match with the YDF fiber amplifiers ecosystem and technology.
 
 ## Why InGaAs/GaAsP superlattices?
 
 Mastering of InGaAs/GaAsP superlattices opens up high power, reliable Al-Free (ALFA) edge emitting lasers [3], which have enhanced lifetime/reliability, as they have higher thresholds for Catastrophic Optical Damage (COD) and for dark-line and dark-spot defects [4]. This kind of lasers is also suitable for implementing Buried Heterostructure designs, which require epitaxial regrowth [5]. Moreover, (Al,Ga,In)As-based structures cannot be epitaxially grown without undergoing relaxation, even at relatively low thicknesses.
 
-Advantages of strain compensated InGaAs/GaAsP devices are well known to experts, and are subject to intensive research, such as DioHELIOS (Trumpf, ams-OSRAM, FBH, Jenoptik) to increase efficiency of high power lasers for nuclear fusion, or Al-Free lasers of Prof. Razeghi's CQD in the US.
+Advantages of strain compensated InGaAs/GaAsP devices are well known to experts, and are subject to intensive research, such as [DioHELIOS](https://www.innovationnewsnetwork.com/article/diode-laser-pump-sources-for-future-fusion-power-plants/70625/) (Trumpf, ams-OSRAM, FBH, Jenoptik) to increase efficiency of high power lasers for nuclear fusion, or [Al-Free lasers of Prof. Razeghi's CQD](http://cqd.ece.northwestern.edu/research/alfree.php) in the US.
 
 ## What was done
 
