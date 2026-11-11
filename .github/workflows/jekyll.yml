@@ -35,6 +35,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1 # v1.115.3
         with:
+          ruby-version: '3.3' # latest 3.3.x; runner images only carry the newest patch release
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
